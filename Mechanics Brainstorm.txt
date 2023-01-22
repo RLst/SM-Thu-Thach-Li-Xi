@@ -1,0 +1,36 @@
+
+
+Props
+-----
+Prize object - Li Xi pouch
+Obstacle object - Hand
+
+Mechanics
+---------
+• Prize object moves in a range between -25 to 125 for instance
+• On user input (head nod), the drop object stops moving sideways and drops down
+• The object has an effective width of 1. Could be custom?
+• Which ever range the prize object falls down into will get filtered through
+
+(>Fail, >SmallPrize, >BigPrize) CheckWon(float prizePos, prizeSize, high prize size, low prize position)
+	small prize slot start
+	small prize slot size
+	big slot start
+	big slot size
+{
+	if (prizePos)
+	{
+
+	}
+
+	int prizeLeft = prizePos - prizeSize * 0.5;
+	int prizeRight = prizePos + prizeSize * 0.5;
+
+	int smallPrizeSlotStart
+
+
+	if (lowPrizePos - )
+
+	if between 0-15, 33-48, 53- return fail
+	if between
+}
