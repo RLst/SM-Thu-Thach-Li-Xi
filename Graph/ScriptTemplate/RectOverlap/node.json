@@ -1,0 +1,53 @@
+{
+	"name": "Rect Overlap",
+	"id": "8c959f87-9e35-b5e1-510c-8b9aa730977b",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "A",
+			"type": "Rect",
+			"item_type": "",
+			"description": "The first rectangle",
+			"displayType": "Rect"
+		},
+		{
+			"name": "B",
+			"type": "Rect",
+			"item_type": "",
+			"description": "The second rectangle",
+			"displayType": "Rect"
+		}
+	],
+	"outputs": [
+		{
+			"name": "True",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the two rectangles are overlapping",
+			"displayType": "Exec"
+		},
+		{
+			"name": "False",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node when the two rectangles are not overlapping",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGRectOverlap.js",
+	"version": "2.0.0",
+	"category": "Utility",
+	"description": "Detect whether or not two rectangles boundaries are overlapping.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Rect-Overlap"
+}

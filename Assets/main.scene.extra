@@ -302,6 +302,33 @@
   },
   {
     "guid": {
+      "a": "c158fd6f-6fc0-7420-d899-248a7d1a16ff",
+      "b": ""
+    },
+    "objGuid": "Guid(14360875897715769485, 3367893894435389883)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
       "a": "342d5c16-6cca-c940-d4b4-7639fce9dee8",
       "b": ""
     },
@@ -437,10 +464,10 @@
   },
   {
     "guid": {
-      "a": "8b32b926-0ec8-cbf5-3414-4ec68e8382b3",
+      "a": "46b51196-d577-fedd-7825-5bcfb8870e1f",
       "b": ""
     },
-    "objGuid": "Guid(12918163616904771376, 10091478230224015248)",
+    "objGuid": "Guid(7945302530503083998, 13377140908602075309)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -464,10 +491,10 @@
   },
   {
     "guid": {
-      "a": "46b51196-d577-fedd-7825-5bcfb8870e1f",
+      "a": "d2e4dfa9-cb14-9e54-c17b-1b34c859e5de",
       "b": ""
     },
-    "objGuid": "Guid(7945302530503083998, 13377140908602075309)",
+    "objGuid": "Guid(16664025530733010063, 12048535400378977706)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -529,7 +556,7 @@
     },
     "objGuid": "Guid(3624869918256307249, 3301730705480051348)",
     "extraType": "Entity",
-    "name": "Prize",
+    "name": "Prize Collider",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -694,7 +721,7 @@
     },
     "objGuid": "Guid(2759569081820586447, 9410314223381553323)",
     "extraType": "Entity",
-    "name": "Palm",
+    "name": "Palm Small Points",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -708,39 +735,6 @@
       "b": ""
     },
     "objGuid": "Guid(2832346632096869336, 940050234024639653)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
-  },
-  {
-    "guid": {
-      "a": "8b6c5c40-e764-1fa5-4fbb-6cf34f62e18c",
-      "b": ""
-    },
-    "objGuid": "Guid(956297151877824903, 362621411577413297)",
-    "extraType": "Entity",
-    "name": "Thumb",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none"
-  },
-  {
-    "guid": {
-      "a": "e63bb5ce-003a-7439-338e-ce1a1c8c38f6",
-      "b": ""
-    },
-    "objGuid": "Guid(7226572152309428076, 13197386196882146955)",
     "extraType": "IFSprite2d",
     "name": "Image",
     "rttiType": "IFSprite2d",
@@ -822,6 +816,72 @@
       "b": ""
     },
     "objGuid": "Guid(10756133488410641105, 16874781147050345874)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "f1c73d16-24e7-59f5-27d1-ce55a5b72197",
+      "b": ""
+    },
+    "objGuid": "Guid(2323881223804552764, 6854747479155291288)",
+    "extraType": "Entity",
+    "name": "Prize Drop",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "7fe50c4c-3f69-0802-3e97-2ea1af0378c1",
+      "b": ""
+    },
+    "objGuid": "Guid(7800800798571016926, 14141419129978069929)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "9fb9bf29-3649-b5ae-aaf5-c41b17be3f2c",
+      "b": ""
+    },
+    "objGuid": "Guid(5639007903973897289, 13866037996512400575)",
+    "extraType": "Entity",
+    "name": "Palm Big Points",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "e329c489-6a6d-913f-3897-1a4370d98922",
+      "b": ""
+    },
+    "objGuid": "Guid(8523632982805423826, 1448483344818224005)",
     "extraType": "IFSprite2d",
     "name": "Image",
     "rttiType": "IFSprite2d",
