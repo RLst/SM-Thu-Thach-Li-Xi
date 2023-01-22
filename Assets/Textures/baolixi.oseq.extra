@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemTextureSequence",
     "name": "baolixi",
-    "objGuid": "Guid(16519326761270336372, 3322387360775786627)",
+    "objGuid": "Guid(5930951867609187383, 15504864802851445908)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
