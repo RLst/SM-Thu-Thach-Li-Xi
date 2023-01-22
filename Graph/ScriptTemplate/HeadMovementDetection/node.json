@@ -1,0 +1,88 @@
+{
+	"name": "Head Movement Detection",
+	"id": "3cc2fd30-e892-479c-b98c-5911c8ffa1c2",
+	"inputs": [
+		{
+			"name": "Detect",
+			"description": "The head to detect the movement. “Head 0” represents the first head appearing in the scene, “Head 4” represents the fifth head appearing in the scene. “Any” represents any head in the scene.",
+			"type": "String",
+			"value_list": [
+				"Head 0",
+				"Head 1",
+				"Head 2",
+				"Head 3",
+				"Head 4",
+				"Any"
+			],
+			"displayType": "String"
+		},
+		{
+			"name": "Head Movement",
+			"description": "The movement on face, including “Head Shake” and “Head Nod”.",
+			"type": "String",
+			"value_list": [
+				"Head Shake",
+				"Head Nod"
+			],
+			"displayType": "String"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Begin",
+			"description": "Execute the next node when the movement starts",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Stay",
+			"description": "Keep executing the next node when the movement is in progress",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "End",
+			"description": "Execute the next node when the movement ends",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "None",
+			"description": "Keep executing the next node when the certain head movement is not detected",
+			"type": "Pulse",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGHeadMovementDetection.js",
+	"category": "Head & Face",
+	"version": "1.0.0",
+	"nodeEvent": "onUpdate",
+	"description": "Detect the head movement in the scene.",
+	"productTypes": [
+		"TTEH"
+	],
+	"graphAlgorithms": [
+		"faceDetect"
+	],
+	"extraAlgorithms": [
+		{
+			"port": 1,
+			"values": [
+				"Head Shake"
+			],
+			"algorithms": [
+				"faceDetectShakeHead"
+			]
+		},
+		{
+			"port": 1,
+			"values": [
+				"Head Nod"
+			],
+			"algorithms": [
+				"faceDetectNodHead"
+			]
+		}
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Head-and-Face/Head-Movement-Detection"
+}

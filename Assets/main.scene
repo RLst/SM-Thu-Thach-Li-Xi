@@ -9,7 +9,7 @@ entities:
     name: Camera
     guid: {a: 17892678610801857370, b: 559697082159424149}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 2}
       - __class: Camera
