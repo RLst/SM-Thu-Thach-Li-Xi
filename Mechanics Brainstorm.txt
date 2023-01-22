@@ -12,6 +12,99 @@ Mechanics
 • The object has an effective width of 1. Could be custom?
 • Which ever range the prize object falls down into will get filtered through
 
+Walkthrough
+----------
+• Display tutorial, display close up of lucky pouch
+• Tap to start
+• Pouch tweens and swings into starting position
+	• Prize money is displayed temporarily
+• Prize oscillates and game starts
+• If prize hits fingers then
+	play reject sound
+	rebound
+	continue oscilation
+• If prize reaches palm then
+	play money sound
+	increase score
+	animations, sparkles, fireworks, etc
+	pause for a bit
+	reset prize
+• ResetPrize(): The prize teleports back to the start, play new sound
+• Game stops after 30 seconds
+• Display results screen
+	You received XXXXXđ in money!
+	Play again?
+
+
+
+void Start()
+{
+	Init();
+}
+
+void Init()
+{
+	isGameStarted = false;
+	isPlaying = false;
+	isDropping = false;
+}
+
+void StartGame()
+{
+	isGameStarted = true;
+	isPlaying = true;
+}
+
+void OnUserInput()
+{
+	isDropping = true;
+
+	StartCoroutine(DropPrize());
+	StartCoroutine(RecoverPrize());
+}
+
+IEnumerator DropPrizeCoroutine()
+{
+	Drop the prize
+	{
+		CheckCollision();
+		yield return null;
+	}
+}
+
+IEnumerator RecoverPrizeCoroutine()
+{
+	If prize needs recovering
+	{
+		RecoverPrize();
+		yield return null;
+	}
+}
+
+void OnWin()
+{
+	if (Win big)
+	{
+		IncreaseScore(100);
+
+	}
+}
+
+void Update()
+{
+	if (timeLeft < 0)
+	{
+		EndGame();
+	}
+}
+
+void EndGame()
+{
+	isPlaying = false;
+
+}
+
+
 (>Fail, >SmallPrize, >BigPrize) CheckWon(float prizePos, prizeSize, high prize size, low prize position)
 	small prize slot start
 	small prize slot size

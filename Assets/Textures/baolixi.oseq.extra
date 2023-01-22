@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "227e593a-e334-7fd8-171a-29813a5ab5af",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "baolixi",
+    "objGuid": "Guid(16519326761270336372, 3322387360775786627)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 512
+  }
+]

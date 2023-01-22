@@ -221,6 +221,33 @@
   },
   {
     "guid": {
+      "a": "5ebbc666-ee42-3884-4b7d-a4b7c079a47a",
+      "b": ""
+    },
+    "objGuid": "Guid(4849983824052415006, 6534725371484680885)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
       "a": "b364b819-a18d-b067-54a0-c83037171ecc",
       "b": ""
     },
@@ -306,6 +333,87 @@
       "b": ""
     },
     "objGuid": "Guid(14360875897715769485, 3367893894435389883)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "54a7c2e1-a741-85f8-ea11-3e1d4a2e4ddc",
+      "b": ""
+    },
+    "objGuid": "Guid(17458127296428067394, 12911288139513161121)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "6750402d-cf02-bba5-e91c-953a61f379bf",
+      "b": ""
+    },
+    "objGuid": "Guid(1101519955333113347, 6741753024778566838)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "9a8dd0e4-b21b-8231-b42f-8f0a851b24e5",
+      "b": ""
+    },
+    "objGuid": "Guid(10109201782790428934, 13512942760762006685)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -882,6 +990,214 @@
       "b": ""
     },
     "objGuid": "Guid(8523632982805423826, 1448483344818224005)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "7c1d749d-5864-dbd2-ba01-4c33f1b18b5a",
+      "b": ""
+    },
+    "objGuid": "Guid(9603186433578719576, 929007875055429536)",
+    "extraType": "Entity",
+    "name": "Props",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "5e284265-4d53-88f4-8351-ee7c5890f66a",
+      "b": ""
+    },
+    "objGuid": "Guid(11983945749848451317, 17546154170870613425)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "3a926285-0333-ea8c-5d23-eb132b694e35",
+      "b": ""
+    },
+    "objGuid": "Guid(2542797859853773616, 5439666322339127427)",
+    "extraType": "Entity",
+    "name": "--- Colliders",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "bc74919e-2352-2e1d-1f40-d6137b10fb88",
+      "b": ""
+    },
+    "objGuid": "Guid(812997139155661749, 13670756393061967531)",
+    "extraType": "Entity",
+    "name": "Prize",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "42f9874f-5be1-565c-e096-122ad197df60",
+      "b": ""
+    },
+    "objGuid": "Guid(7370748296995029171, 4239671814350813059)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "25b8cb98-2a04-5d71-98f6-9f814db0c8b6",
+      "b": ""
+    },
+    "objGuid": "Guid(5208349207300440771, 16015139469238165645)",
+    "extraType": "AnimationSequence",
+    "name": "Animation Sequence",
+    "rttiType": "AnimSeqComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_aniseq",
+    "expanded": true,
+    "editable": true,
+    "sequence": "227e593a-e334-7fd8-171a-29813a5ab5af",
+    "targetProperty": "Albedo",
+    "playMode": 1
+  },
+  {
+    "guid": {
+      "a": "9cdc2089-af2f-09ea-d40a-7a43abfa5c47",
+      "b": ""
+    },
+    "objGuid": "Guid(12342879139088215837, 12488590098943285394)",
+    "extraType": "Entity",
+    "name": "Canvas (1)",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "3cae1b60-59e0-3828-7b13-e5bcea4e09a8",
+      "b": ""
+    },
+    "objGuid": "Guid(3480943183437418259, 17970700643482086795)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "0c966d86-f386-684f-b314-023364178825",
+      "b": ""
+    },
+    "objGuid": "Guid(669701338189293781, 14049078968306558865)",
+    "extraType": "IFLayer2d",
+    "name": "Canvas",
+    "rttiType": "IFLayer2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_canvas",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "114eb7eb-25eb-d1a9-94a2-3c6211eb649e",
+      "b": ""
+    },
+    "objGuid": "Guid(4705253841524642712, 12682112261885254811)",
+    "extraType": "IFCanvas2d",
+    "name": "Canvas Scaler",
+    "rttiType": "IFCanvas2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_canvasscaler",
+    "expanded": true,
+    "editable": true,
+    "scaleFactor": "Screen Size"
+  },
+  {
+    "guid": {
+      "a": "2a7e2c44-4069-94db-8c5c-52e1c864951e",
+      "b": ""
+    },
+    "objGuid": "Guid(10973992851039471666, 786593928334259628)",
+    "extraType": "Entity",
+    "name": "_",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "844d6ee6-06db-a59a-f464-f73c616b6dd5",
+      "b": ""
+    },
+    "objGuid": "Guid(4489039380494902602, 10714817415574797483)",
     "extraType": "IFSprite2d",
     "name": "Image",
     "rttiType": "IFSprite2d",
