@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0b88ff58-a5e6-64c5-1441-3394c20fc44c",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "winmid",
+    "objGuid": "Guid(3333959035020438878, 10825741150091561132)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

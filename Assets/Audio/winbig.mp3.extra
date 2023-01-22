@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "e3ca66f5-9199-17e8-7be0-9dd8c0e7308a",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "winbig",
+    "objGuid": "Guid(6507178285937601477, 16414947915972013700)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

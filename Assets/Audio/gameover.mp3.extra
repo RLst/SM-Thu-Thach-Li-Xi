@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "460e9f88-0f66-bcdd-9f14-c08a85ed3778",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "gameover",
+    "objGuid": "Guid(3552648762381789612, 14384068179019477945)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]
