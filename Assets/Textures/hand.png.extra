@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "0df1bf87-2b22-919f-5332-e15d54473b8c",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "hand",
+    "objGuid": "Guid(6431638045806633465, 16721245813875871626)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

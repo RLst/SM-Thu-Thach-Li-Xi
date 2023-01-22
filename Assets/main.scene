@@ -170,7 +170,7 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        colorTint: {r: 0.01020408, g: 0.01020408, b: 0.01020408, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
@@ -221,7 +221,7 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        colorTint: {r: 1.110223e-16, g: 0.6999307, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
@@ -264,7 +264,7 @@ entities:
         name: ""
         guid: {a: 8884953573779323519, b: 10940996168078496651}
         enabled: true
-        alpha: 0.800000011920929
+        alpha: 0.699999988079071
         cascadeAlphaEnabled: false
         type:
           __class: IFSprite2dType
@@ -272,7 +272,7 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        colorTint: {r: 1.110223e-16, g: 1, b: 0.1211067, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
@@ -315,7 +315,7 @@ entities:
         name: ""
         guid: {a: 90363088538479451, b: 17549811450415895721}
         enabled: true
-        alpha: 0.800000011920929
+        alpha: 0.699999988079071
         cascadeAlphaEnabled: false
         type:
           __class: IFSprite2dType
@@ -323,7 +323,7 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        colorTint: {r: 0.893823, g: 1, b: 2.220446e-16, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
@@ -374,7 +374,7 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        colorTint: {r: 1, g: 0.4774603, b: 2.220446e-16, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
@@ -461,7 +461,7 @@ entities:
     name: Keypoints
     guid: {a: 6143229147568262251, b: 7281596109948662929}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 6}
     layer: 1
@@ -732,7 +732,7 @@ entities:
     name: Prize
     guid: {a: 812997139155661749, b: 13670756393061967531}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 20}
       - __class: IFSprite2d
@@ -751,8 +751,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/227e593a-e334-7fd8-171a-29813a5ab5af/6.png}
-        imageAtlas: {localId: 1, path: 227e593a-e334-7fd8-171a-29813a5ab5af--6.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/227e593a-e334-7fd8-171a-29813a5ab5af/25.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -790,13 +789,13 @@ entities:
         frameInnerName: _Atlas_InnerTex_ST
         playmode:
           __class: PlayMode
-          value: loop
+          value: once
         loopCount: -1
         speed: 35
         autoplay: true
         animSeqMap:
           __class: Map
-          baolixi: {localId: 3, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+          lixi: {localId: 3, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
     layer: 1
   - __class: Entity
     name: _
@@ -1142,6 +1141,108 @@ entities:
         sizeInited: true
         freeInited: false
     layer: 1
+  - __class: Entity
+    name: Hand
+    guid: {a: 13278792408982354100, b: 4998577814061458338}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 18178347541308812948, b: 2886123352253983627}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 0df1bf87-2b22-919f-5332-e15d54473b8c--0df1bf87-2b22-919f-5332-e15d54473b8c.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Palm Med Points
+    guid: {a: 4994302788289931547, b: 7736991573887422873}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 4053378595309779067, b: 15081736361152935870}
+        enabled: true
+        alpha: 0.800000011920929
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -1195,8 +1296,6 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
   - {localId: 22}
   - {localId: 6}
-  - {localId: 19}
-  - {localId: 24}
   - {localId: 18}
   - {localId: 9}
   - {localId: 10}
@@ -1204,7 +1303,10 @@ children:
   - {localId: 12}
   - {localId: 13}
   - {localId: 15}
+  - {localId: 30}
   - {localId: 17}
+  - {localId: 19}
+  - {localId: 24}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1244,14 +1346,14 @@ depth: -2
 name: ""
 guid: {a: 6145092002389795651, b: 16175475397714517409}
 enabled: true
-localPosition: {x: -0.34375, y: 0.625, z: 0}
+localPosition: {x: -0.3125, y: 0.625, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 6}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -220, y: 400}
+position: {x: -200, y: 400}
 rotation: 0
 scale: {x: 1, y: 1}
 size: {x: 50, y: 50}
@@ -1263,14 +1365,14 @@ depth: -3
 name: ""
 guid: {a: 8452071334146214771, b: 6195720741700274869}
 enabled: true
-localPosition: {x: 0.34375, y: 0.625, z: 0}
+localPosition: {x: 0.3125, y: 0.625, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 6}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: 220, y: 400}
+position: {x: 200, y: 400}
 rotation: 0
 scale: {x: 1, y: 1}
 size: {x: 50, y: 50}
@@ -1282,116 +1384,116 @@ depth: -4
 name: ""
 guid: {a: 6651039040452589954, b: 11181282363831257534}
 enabled: true
-localPosition: {x: -0.4033174, y: 0.5516467, z: 0}
+localPosition: {x: -0.04065953, y: -0.2831587, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -258.1231, y: 353.0539}
+position: {x: -26.0221, y: -181.2216}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 50, y: 337}
+size: {x: 36, y: 335.7797}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -14
+depth: -8
 --- !IFTransform2d &10
 name: ""
 guid: {a: 17312720730964070845, b: 15128624138570523044}
 enabled: true
-localPosition: {x: -0.3973822, y: -0.4903012, z: 0}
+localPosition: {x: -0.4031413, y: -0.5825151, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -254.3246, y: -313.7928}
+position: {x: -258.0104, y: -372.8097}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 211.3508, y: 336}
+size: {x: 203.9791, y: 217.9662}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -15
+depth: -9
 --- !IFTransform2d &11
 name: ""
 guid: {a: 9819277185539623092, b: 467894667099944638}
 enabled: true
-localPosition: {x: -0.08202441, y: -0.3885119, z: 0}
+localPosition: {x: -0.1177503, y: -0.4803947, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -52.49562, y: -248.6476}
+position: {x: -75.36019, y: -307.4526}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 42.24785, y: 360.9625}
+size: {x: 58.09807, y: 340.7886}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -16
+depth: -10
 --- !IFTransform2d &12
 name: ""
 guid: {a: 8595257631104410458, b: 12965773821956530306}
 enabled: true
-localPosition: {x: 0.08289716, y: -0.3803539, z: 0}
+localPosition: {x: 0.0421875, y: -0.4509078, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: 53.05418, y: -243.4265}
+position: {x: 27, y: -288.581}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 42.24785, y: 386.2618}
+size: {x: 62, y: 390.4802}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -17
+depth: -11
 --- !IFTransform2d &13
 name: ""
 guid: {a: 8089341361947134823, b: 6589371340884438197}
 enabled: true
-localPosition: {x: 0.3978184, y: -0.4020073, z: 0}
+localPosition: {x: 0.3729493, y: -0.4747602, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: 254.6038, y: -257.2847}
+position: {x: 238.6876, y: -303.8465}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 210.7924, y: 355.8981}
+size: {x: 242.6249, y: 346.9281}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -18
+depth: -12
 --- !IFTransform2d &15
 name: ""
 guid: {a: 7945302530503083998, b: 13377140908602075309}
 enabled: true
-localPosition: {x: 1.490116e-08, y: -1.114983, z: 0}
+localPosition: {x: 0.1500873, y: -0.9703516, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: 9.536743e-06, y: -713.5894}
+position: {x: 96.05585, y: -621.025}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 359.6572, y: 238.1617}
+size: {x: 118.5868, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -19
+depth: -13
 --- !IFTransform2d &16
 name: ""
 guid: {a: 14360875897715769485, b: 3367893894435389883}
@@ -1415,21 +1517,21 @@ depth: -5
 name: ""
 guid: {a: 16664025530733010063, b: 12048535400378977706}
 enabled: true
-localPosition: {x: -3.725291e-09, y: -1, z: 0}
+localPosition: {x: -0.03256704, y: -0.8542746, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -2.384186e-06, y: -640}
+position: {x: -20.84291, y: -546.7357}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 89.91431, y: 123.8813}
+size: {x: 88.67153, y: 123.8813}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -20
+depth: -15
 --- !IFTransform2d &18
 name: ""
 guid: {a: 17458127296428067394, b: 12911288139513161121}
@@ -1448,7 +1550,7 @@ size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -13
+depth: -7
 --- !IFTransform2d &19
 name: ""
 guid: {a: 1101519955333113347, b: 6741753024778566838}
@@ -1459,6 +1561,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 children:
   - {localId: 20}
+  - {localId: 29}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1469,7 +1572,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -7
+depth: -16
 --- !IFTransform2d &20
 name: ""
 guid: {a: 10109201782790428934, b: 13512942760762006685}
@@ -1488,7 +1591,7 @@ size: {x: 256, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -8
+depth: -17
 --- !IFTransform2d &22
 name: ""
 guid: {a: 4849983824052415006, b: 6534725371484680885}
@@ -1548,7 +1651,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -9
+depth: -19
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -1567,7 +1670,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -10
+depth: -20
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -1586,7 +1689,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -11
+depth: -21
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -1605,7 +1708,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -12
+depth: -22
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -1625,3 +1728,41 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: -6
+--- !IFTransform2d &29
+name: ""
+guid: {a: 14217848644694196196, b: 3197121159146953370}
+enabled: true
+localPosition: {x: 0.08125, y: -0.71875, z: 0}
+localScale: {x: 2.5, y: 2.5, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 52, y: -460}
+rotation: 0
+scale: {x: 2.5, y: 2.5}
+size: {x: 288, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -18
+--- !IFTransform2d &30
+name: ""
+guid: {a: 12486907650347986312, b: 17471197362538971788}
+enabled: true
+localPosition: {x: -0.2175684, y: -0.9703516, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -139.2438, y: -621.025}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 130.5007, y: 182.1403}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -14
