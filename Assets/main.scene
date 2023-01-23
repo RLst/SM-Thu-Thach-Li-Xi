@@ -753,7 +753,7 @@ entities:
         name: ""
         guid: {a: 5208349207300440771, b: 16015139469238165645}
         enabled: true
-        animSeq: {localId: 7, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+        animSeq: {localId: 9, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -766,7 +766,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          lixi: {localId: 7, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+          lixi: {localId: 9, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
     layer: 1
   - __class: Entity
     name: _

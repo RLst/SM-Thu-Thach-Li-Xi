@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemTextureSequence",
     "name": "lixi",
-    "objGuid": "Guid(2544260418800007526, 6042827004777035406)",
+    "objGuid": "Guid(5786916965341904051, 17283811469125879695)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
