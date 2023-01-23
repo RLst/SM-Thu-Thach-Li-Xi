@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "74da91c2-41ba-fe8b-08a1-f958910f1c68",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "whoosh 2",
+    "objGuid": "Guid(13062444118887321530, 15215431594173771146)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

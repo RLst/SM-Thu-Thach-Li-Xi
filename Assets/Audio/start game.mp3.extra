@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "705d149a-6d14-521a-a32f-8d2552bfdc47",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "start game",
+    "objGuid": "Guid(6507029658847164723, 1081894643977335229)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]
