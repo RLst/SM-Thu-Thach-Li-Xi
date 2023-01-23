@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "6bcc0328-9f10-c8f6-6566-a59642a9f049",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "Error Sound 6",
+    "objGuid": "Guid(14718489217544367000, 15916102793559272871)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

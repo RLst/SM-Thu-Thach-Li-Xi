@@ -6,35 +6,6 @@ editSceneGuid: {a: 0, b: 0}
 calibrateVer: V5
 entities:
   - __class: Entity
-    name: Camera
-    guid: {a: 17892678610801857370, b: 559697082159424149}
-    scene: {localId: 1}
-    selfvisible: false
-    components:
-      - {localId: 2}
-      - __class: Camera
-        name: ""
-        guid: {a: 12556560734000964803, b: 7508859945702231687}
-        enabled: true
-        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
-        renderOrder: 10
-        type:
-          __class: CameraType
-          value: PERSPECTIVE
-        clearColor: {r: 0, g: 0, b: 0, a: 1}
-        clearType:
-          __class: CameraClearType
-          value: DEPTH
-        alwaysClear: true
-        viewport: {x: 0, y: 0, w: 1, h: 1}
-        fovy: 60
-        orthoScale: 1
-        zNear: 0.1000000014901161
-        zFar: 1000
-        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
-        isRootCamera: false
-    layer: 0
-  - __class: Entity
     name: Directional Light
     guid: {a: 3261253174792506660, b: 16680708562180406145}
     scene: {localId: 1}
@@ -134,7 +105,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 19
+        drawCallNum: 13
         maskType:
           __class: IFMaskType
           value: None
@@ -1248,7 +1219,7 @@ entities:
     name: UI Foreground
     guid: {a: 4776206568282203261, b: 3874328185576079259}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 31}
       - __class: IFSprite2d
@@ -1370,7 +1341,6 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1440,7 +1410,6 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1510,7 +1479,6 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1580,7 +1548,6 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1932,6 +1899,108 @@ entities:
         sizeInited: true
         freeInited: false
     layer: 1
+  - __class: Entity
+    name: Money
+    guid: {a: 5712994876266089899, b: 18229598507996668567}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 9894236410270997996, b: 18421724673443091369}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Sliced
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 0.9030612, g: 0.8641052, b: 0.7694178, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: cbbb1496-866e-7614-60fb-7359de72b005--cbbb1496-866e-7614-60fb-7359de72b005.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.4000000059604645
+        slicedRight: 0.6000000238418579
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: UI MIddle
+    guid: {a: 16017056252860197640, b: 2794194859469758613}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 14144172116133731147, b: 526179087370597269}
+        enabled: false
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -1985,6 +2054,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
   - {localId: 22}
   - {localId: 31}
+  - {localId: 44}
   - {localId: 6}
   - {localId: 18}
   - {localId: 9}
@@ -2031,7 +2101,7 @@ size: {x: 59.00173, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -13
+depth: -15
 --- !IFTransform2d &7
 name: ""
 guid: {a: 6145092002389795651, b: 16175475397714517409}
@@ -2050,7 +2120,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -14
+depth: -16
 --- !IFTransform2d &8
 name: ""
 guid: {a: 8452071334146214771, b: 6195720741700274869}
@@ -2069,7 +2139,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -15
+depth: -17
 --- !IFTransform2d &9
 name: ""
 guid: {a: 6651039040452589954, b: 11181282363831257534}
@@ -2088,7 +2158,7 @@ size: {x: 36, y: 335.7797}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -19
+depth: -21
 --- !IFTransform2d &10
 name: ""
 guid: {a: 17312720730964070845, b: 15128624138570523044}
@@ -2107,7 +2177,7 @@ size: {x: 203.9791, y: 217.9662}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -20
+depth: -22
 --- !IFTransform2d &11
 name: ""
 guid: {a: 9819277185539623092, b: 467894667099944638}
@@ -2126,7 +2196,7 @@ size: {x: 58.09807, y: 340.7886}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -21
+depth: -23
 --- !IFTransform2d &12
 name: ""
 guid: {a: 8595257631104410458, b: 12965773821956530306}
@@ -2145,7 +2215,7 @@ size: {x: 62, y: 390.4802}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -22
+depth: -24
 --- !IFTransform2d &13
 name: ""
 guid: {a: 8089341361947134823, b: 6589371340884438197}
@@ -2164,7 +2234,7 @@ size: {x: 242.6249, y: 346.9281}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -23
+depth: -25
 --- !IFTransform2d &15
 name: ""
 guid: {a: 7945302530503083998, b: 13377140908602075309}
@@ -2183,7 +2253,7 @@ size: {x: 118.5868, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -24
+depth: -26
 --- !IFTransform2d &16
 name: ""
 guid: {a: 14360875897715769485, b: 3367893894435389883}
@@ -2202,7 +2272,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -16
+depth: -18
 --- !IFTransform2d &17
 name: ""
 guid: {a: 16664025530733010063, b: 12048535400378977706}
@@ -2221,7 +2291,7 @@ size: {x: 88.67153, y: 123.8813}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -26
+depth: -28
 --- !IFTransform2d &18
 name: ""
 guid: {a: 17458127296428067394, b: 12911288139513161121}
@@ -2240,7 +2310,7 @@ size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -18
+depth: -20
 --- !IFTransform2d &19
 name: ""
 guid: {a: 1101519955333113347, b: 6741753024778566838}
@@ -2263,7 +2333,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -27
+depth: -29
 --- !IFTransform2d &20
 name: ""
 guid: {a: 10109201782790428934, b: 13512942760762006685}
@@ -2282,7 +2352,7 @@ size: {x: 256, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -28
+depth: -30
 --- !IFTransform2d &22
 name: ""
 guid: {a: 4849983824052415006, b: 6534725371484680885}
@@ -2324,7 +2394,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -31
+depth: -33
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -2343,7 +2413,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -32
+depth: -34
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -2362,7 +2432,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -33
+depth: -35
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -2381,7 +2451,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -34
+depth: -36
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -2400,7 +2470,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -17
+depth: -19
 --- !IFTransform2d &29
 name: ""
 guid: {a: 14217848644694196196, b: 3197121159146953370}
@@ -2419,7 +2489,7 @@ size: {x: 288, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -30
+depth: -32
 --- !IFTransform2d &30
 name: ""
 guid: {a: 12486907650347986312, b: 17471197362538971788}
@@ -2438,12 +2508,12 @@ size: {x: 130.5007, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -25
+depth: -27
 --- !IFTransform2d &31
 name: ""
 guid: {a: 14505246101312104145, b: 17827012429100442013}
 enabled: true
-localPosition: {x: 0, y: 0.7166958, z: 0}
+localPosition: {x: 0, y: -0.65625, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
@@ -2461,7 +2531,7 @@ children:
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: 0, y: 458.6853}
+position: {x: 0, y: -420}
 rotation: 0
 scale: {x: 1, y: 1}
 size: {x: 100, y: 100}
@@ -2677,4 +2747,44 @@ size: {x: 256, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -29
+depth: -31
+--- !IFTransform2d &44
+name: ""
+guid: {a: 4272501427973081612, b: 12528399027832108978}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 100, y: 100}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -13
+--- !IFTransform2d &45
+name: ""
+guid: {a: 9171344859624782994, b: 8328488567692843664}
+enabled: true
+localPosition: {x: -7.450581e-09, y: -1.490116e-08, z: 0}
+localScale: {x: 0.75, y: 0.75, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -4.768372e-06, y: -9.536743e-06}
+rotation: 0
+scale: {x: 0.75, y: 0.75}
+size: {x: 512, y: 231}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -14
