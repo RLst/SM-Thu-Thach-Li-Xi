@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "0df1bf87-2b22-919f-5332-e15d54473b8c",
+      "a": "cded1691-2f06-1fb7-4541-c4c5494530a9",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "hand",
-    "objGuid": "Guid(16159597376649180506, 17988615518598297498)",
+    "name": "resultstitle x",
+    "objGuid": "Guid(14574215508681076578, 14542119759387821971)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -134,7 +134,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 11
+        drawCallNum: 18
         maskType:
           __class: IFMaskType
           value: None
@@ -751,7 +751,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/227e593a-e334-7fd8-171a-29813a5ab5af/25.png}
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -782,7 +782,7 @@ entities:
         name: ""
         guid: {a: 5208349207300440771, b: 16015139469238165645}
         enabled: true
-        animSeq: {localId: 3, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+        animSeq: {localId: 6, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -795,7 +795,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          lixi: {localId: 3, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+          lixi: {localId: 6, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
     layer: 1
   - __class: Entity
     name: _
@@ -849,7 +849,7 @@ entities:
         freeInited: false
     layer: 1
   - __class: Entity
-    name: UI
+    name: UI Background
     guid: {a: 4490028569924337715, b: 11821987165874943384}
     scene: {localId: 1}
     selfvisible: true
@@ -860,7 +860,7 @@ entities:
         guid: {a: 12918320636732743097, b: 3361472039539034291}
         enabled: true
         alpha: 1
-        cascadeAlphaEnabled: false
+        cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
           value: Normal
@@ -911,7 +911,7 @@ entities:
         guid: {a: 15079959959416461365, b: 8659390897261283204}
         enabled: true
         alpha: 1
-        cascadeAlphaEnabled: false
+        cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
           value: Normal
@@ -981,7 +981,7 @@ entities:
         guid: {a: 15154350167717736171, b: 5665704941714884492}
         enabled: true
         alpha: 1
-        cascadeAlphaEnabled: false
+        cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
           value: Normal
@@ -1051,7 +1051,7 @@ entities:
         guid: {a: 3264115834159567210, b: 18097650036770362802}
         enabled: true
         alpha: 1
-        cascadeAlphaEnabled: false
+        cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
           value: Normal
@@ -1243,6 +1243,643 @@ entities:
         sizeInited: true
         freeInited: false
     layer: 1
+  - __class: Entity
+    name: UI Foreground
+    guid: {a: 4776206568282203261, b: 3874328185576079259}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 6144441826109854435, b: 17441975782519089851}
+        enabled: false
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Gameover Panel
+    guid: {a: 9893305404742192153, b: 15583180517883708803}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 596880441830221031, b: 2883276944359564205}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Sliced
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: e0f5a072-8718-a927-693b-46bbfda7bb4c--e0f5a072-8718-a927-693b-46bbfda7bb4c.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.4000000059604645
+        slicedRight: 0.6000000238418579
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Result 0
+    guid: {a: 14721305517773120658, b: 12794303942429627567}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 8739550626676361708, b: 10926635705944309391}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 15441099595057416513, b: 8008237533480274066}
+        enabled: true
+        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: once
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+    layer: 1
+  - __class: Entity
+    name: Result 2
+    guid: {a: 4126856659344670037, b: 12475182354111500683}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 4273734892107792971, b: 15894817255770865064}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 15010098827212027072, b: 7347337394074099890}
+        enabled: true
+        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: once
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+    layer: 1
+  - __class: Entity
+    name: Result 1
+    guid: {a: 12486133923019375853, b: 9722809595198490789}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 15222687720933753129, b: 12546069959532632453}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 17239815710852429590, b: 8276142724403580559}
+        enabled: true
+        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: once
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+    layer: 1
+  - __class: Entity
+    name: Result 3
+    guid: {a: 5206301517487431059, b: 14175227439284198541}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 1174835095327154059, b: 10299151736796907698}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 1533590335817717789, b: 6503976328543997865}
+        enabled: true
+        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: once
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+    layer: 1
+  - __class: Entity
+    name: Result Zero 0
+    guid: {a: 4849732042807151061, b: 13337850213783749045}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 2542038204414757771, b: 9115608198275336576}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Result Zero 1
+    guid: {a: 11190619451382842620, b: 3925087973320429698}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 3911630822366960064, b: 3885330760202045096}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Result Zero 2
+    guid: {a: 2468654487983467360, b: 753178473528298130}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 11478825471810105291, b: 16788427883465166498}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Title
+    guid: {a: 5209627113873975838, b: 3289277654531910841}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 8739486868614183227, b: 12096246182876618671}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Sliced
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: cded1691-2f06-1fb7-4541-c4c5494530a9--cded1691-2f06-1fb7-4541-c4c5494530a9.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.4000000059604645
+        slicedRight: 0.6000000238418579
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: đ
+    guid: {a: 6936940155912033146, b: 2212644308542914696}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 14647120209154059129, b: 9850631505820783763}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Sliced
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 1aad7240-3bc9-0d21-d0fe-5969c659e2d7--1aad7240-3bc9-0d21-d0fe-5969c659e2d7.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.4000000059604645
+        slicedRight: 0.6000000238418579
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -1295,6 +1932,7 @@ localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
   - {localId: 22}
+  - {localId: 31}
   - {localId: 6}
   - {localId: 18}
   - {localId: 9}
@@ -1341,7 +1979,7 @@ size: {x: 59.00173, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -2
+depth: -13
 --- !IFTransform2d &7
 name: ""
 guid: {a: 6145092002389795651, b: 16175475397714517409}
@@ -1360,7 +1998,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -3
+depth: -14
 --- !IFTransform2d &8
 name: ""
 guid: {a: 8452071334146214771, b: 6195720741700274869}
@@ -1379,7 +2017,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -4
+depth: -15
 --- !IFTransform2d &9
 name: ""
 guid: {a: 6651039040452589954, b: 11181282363831257534}
@@ -1398,7 +2036,7 @@ size: {x: 36, y: 335.7797}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -8
+depth: -19
 --- !IFTransform2d &10
 name: ""
 guid: {a: 17312720730964070845, b: 15128624138570523044}
@@ -1417,7 +2055,7 @@ size: {x: 203.9791, y: 217.9662}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -9
+depth: -20
 --- !IFTransform2d &11
 name: ""
 guid: {a: 9819277185539623092, b: 467894667099944638}
@@ -1436,7 +2074,7 @@ size: {x: 58.09807, y: 340.7886}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -10
+depth: -21
 --- !IFTransform2d &12
 name: ""
 guid: {a: 8595257631104410458, b: 12965773821956530306}
@@ -1455,12 +2093,12 @@ size: {x: 62, y: 390.4802}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -11
+depth: -22
 --- !IFTransform2d &13
 name: ""
 guid: {a: 8089341361947134823, b: 6589371340884438197}
 enabled: true
-localPosition: {x: 0.3729493, y: -0.4747602, z: 0}
+localPosition: {x: 0.3729494, y: -0.4747601, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
@@ -1474,7 +2112,7 @@ size: {x: 242.6249, y: 346.9281}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -12
+depth: -23
 --- !IFTransform2d &15
 name: ""
 guid: {a: 7945302530503083998, b: 13377140908602075309}
@@ -1493,7 +2131,7 @@ size: {x: 118.5868, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -13
+depth: -24
 --- !IFTransform2d &16
 name: ""
 guid: {a: 14360875897715769485, b: 3367893894435389883}
@@ -1512,12 +2150,12 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -5
+depth: -16
 --- !IFTransform2d &17
 name: ""
 guid: {a: 16664025530733010063, b: 12048535400378977706}
 enabled: true
-localPosition: {x: -0.03256704, y: -0.8542746, z: 0}
+localPosition: {x: -0.03256705, y: -0.8542746, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
@@ -1531,7 +2169,7 @@ size: {x: 88.67153, y: 123.8813}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -15
+depth: -26
 --- !IFTransform2d &18
 name: ""
 guid: {a: 17458127296428067394, b: 12911288139513161121}
@@ -1550,7 +2188,7 @@ size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -7
+depth: -18
 --- !IFTransform2d &19
 name: ""
 guid: {a: 1101519955333113347, b: 6741753024778566838}
@@ -1572,7 +2210,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -16
+depth: -27
 --- !IFTransform2d &20
 name: ""
 guid: {a: 10109201782790428934, b: 13512942760762006685}
@@ -1591,7 +2229,7 @@ size: {x: 256, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -17
+depth: -28
 --- !IFTransform2d &22
 name: ""
 guid: {a: 4849983824052415006, b: 6534725371484680885}
@@ -1611,24 +2249,6 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: -1
---- !IFTransform2d &23
-name: ""
-guid: {a: 3480943183437418259, b: 17970700643482086795}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
-position: {x: 0, y: 0}
-rotation: 0
-scale: {x: 1, y: 1}
-size: {x: 720, y: 1280}
-pivot: {x: 0.5, y: 0.5}
-flipX: false
-flipY: false
-depth: -16
 --- !IFTransform2d &24
 name: ""
 guid: {a: 18248761223658136167, b: 13208823414147277696}
@@ -1651,7 +2271,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -19
+depth: -30
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -1670,7 +2290,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -20
+depth: -31
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -1689,7 +2309,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -21
+depth: -32
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -1708,7 +2328,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -22
+depth: -33
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -1727,7 +2347,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -6
+depth: -17
 --- !IFTransform2d &29
 name: ""
 guid: {a: 14217848644694196196, b: 3197121159146953370}
@@ -1746,23 +2366,243 @@ size: {x: 288, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -18
+depth: -29
 --- !IFTransform2d &30
 name: ""
 guid: {a: 12486907650347986312, b: 17471197362538971788}
 enabled: true
-localPosition: {x: -0.2175684, y: -0.9703516, z: 0}
+localPosition: {x: -0.2175684, y: -0.9726785, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -139.2438, y: -621.025}
+position: {x: -139.2438, y: -622.5143}
 rotation: 0
 scale: {x: 1, y: 1}
 size: {x: 130.5007, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -14
+depth: -25
+--- !IFTransform2d &31
+name: ""
+guid: {a: 14505246101312104145, b: 17827012429100442013}
+enabled: true
+localPosition: {x: 0, y: 0.7166958, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 33}
+  - {localId: 34}
+  - {localId: 35}
+  - {localId: 36}
+  - {localId: 38}
+  - {localId: 39}
+  - {localId: 40}
+  - {localId: 41}
+  - {localId: 42}
+  - {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 458.6853}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 100, y: 100}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2
+--- !IFTransform2d &32
+name: ""
+guid: {a: 2543861223615003578, b: 15396787153826271364}
+enabled: true
+localPosition: {x: -7.450581e-09, y: 0.002054214, z: 0}
+localScale: {x: 1.5, y: 1.5, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -4.768372e-06, y: 1.314697}
+rotation: 0
+scale: {x: 1.5, y: 1.5}
+size: {x: 562.4046, y: 240}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -12
+--- !IFTransform2d &33
+name: ""
+guid: {a: 1892541490888237268, b: 3408765518183959696}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -3
+--- !IFTransform2d &34
+name: ""
+guid: {a: 6721757190423122157, b: 17112564075785885622}
+enabled: true
+localPosition: {x: -0.075, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -48, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -4
+--- !IFTransform2d &35
+name: ""
+guid: {a: 9677642144199419241, b: 15662256390973993915}
+enabled: true
+localPosition: {x: -0.15, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -96, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.4999999, y: 0.5}
+flipX: false
+flipY: false
+depth: -5
+--- !IFTransform2d &36
+name: ""
+guid: {a: 15153671055646243642, b: 5512447217428151998}
+enabled: true
+localPosition: {x: -0.225, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -144, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -6
+--- !IFTransform2d &38
+name: ""
+guid: {a: 14505547902927577777, b: 11070518981263471527}
+enabled: true
+localPosition: {x: 0.2453125, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 157, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -7
+--- !IFTransform2d &39
+name: ""
+guid: {a: 5858206209959605921, b: 1022073160043294896}
+enabled: true
+localPosition: {x: 0.1625, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 104, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -8
+--- !IFTransform2d &40
+name: ""
+guid: {a: 741220679365519989, b: 18216381950853235628}
+enabled: true
+localPosition: {x: 0.078125, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 50, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -9
+--- !IFTransform2d &41
+name: ""
+guid: {a: 14575065204962946700, b: 5960794861884822923}
+enabled: true
+localPosition: {x: -7.450581e-09, y: 0.0928487, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -4.768372e-06, y: 59.42317}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 81}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -10
+--- !IFTransform2d &42
+name: ""
+guid: {a: 12991470561044478786, b: 10363488890883344268}
+enabled: true
+localPosition: {x: 0.3213992, y: -0.02375196, z: 0}
+localScale: {x: 0.7, y: 0.7, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 205.6955, y: -15.20125}
+rotation: 0
+scale: {x: 0.7, y: 0.7}
+size: {x: 112, y: 150}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -11

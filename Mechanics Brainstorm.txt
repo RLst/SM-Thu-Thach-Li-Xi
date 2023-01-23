@@ -12,6 +12,8 @@ Mechanics
 • The object has an effective width of 1. Could be custom?
 • Which ever range the prize object falls down into will get filtered through
 
+
+
 Walkthrough
 ----------
 • Display tutorial, display close up of lucky pouch

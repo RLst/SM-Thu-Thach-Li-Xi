@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "winmid",
-    "objGuid": "Guid(3333959035020438878, 10825741150091561132)",
+    "objGuid": "Guid(15585084000969857861, 14188576929989476753)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
