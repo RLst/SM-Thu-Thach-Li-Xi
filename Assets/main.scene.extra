@@ -977,6 +977,33 @@
   },
   {
     "guid": {
+      "a": "0efe541b-2e87-6780-cc48-a4cb628c7231",
+      "b": ""
+    },
+    "objGuid": "Guid(1245380529822046926, 11296961435175029648)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
       "a": "e2df9647-5e99-70ad-83ea-2f3f64ac3ece",
       "b": ""
     },
@@ -1500,7 +1527,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -1633,7 +1660,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -2328,5 +2355,38 @@
     "editable": true,
     "advanced": true,
     "texture": "1aad7240-3bc9-0d21-d0fe-5969c659e2d7"
+  },
+  {
+    "guid": {
+      "a": "4aaa47a9-7f84-8b92-49e9-af568d8506f9",
+      "b": ""
+    },
+    "objGuid": "Guid(522558079916373268, 9522308190581530776)",
+    "extraType": "Entity",
+    "name": "Pivot",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "daa559bc-aef9-beb9-6163-6dc820105304",
+      "b": ""
+    },
+    "objGuid": "Guid(16953705642175539340, 13399330772254379397)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": false,
+    "texture": "00000000-0000-0000-0000-00000000003e"
   }
 ]

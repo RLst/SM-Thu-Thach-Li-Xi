@@ -134,7 +134,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 18
+        drawCallNum: 19
         maskType:
           __class: IFMaskType
           value: None
@@ -732,7 +732,7 @@ entities:
     name: Prize
     guid: {a: 812997139155661749, b: 13670756393061967531}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 20}
       - __class: IFSprite2d
@@ -751,7 +751,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        texture: {localId: 1, path: Library/Artifact/227e593a-e334-7fd8-171a-29813a5ab5af/25.png}
+        imageAtlas: {localId: 1, path: 227e593a-e334-7fd8-171a-29813a5ab5af--25.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1880,6 +1881,57 @@ entities:
         sizeInited: true
         freeInited: false
     layer: 1
+  - __class: Entity
+    name: Pivot
+    guid: {a: 522558079916373268, b: 9522308190581530776}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 16953705642175539340, b: 13399330772254379397}
+        enabled: false
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -2199,6 +2251,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
 children:
   - {localId: 20}
+  - {localId: 43}
   - {localId: 29}
 mobility:
   __class: Mobility
@@ -2271,7 +2324,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -30
+depth: -31
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -2290,7 +2343,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -31
+depth: -32
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -2309,7 +2362,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -32
+depth: -33
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -2328,7 +2381,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -33
+depth: -34
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -2366,7 +2419,7 @@ size: {x: 288, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -29
+depth: -30
 --- !IFTransform2d &30
 name: ""
 guid: {a: 12486907650347986312, b: 17471197362538971788}
@@ -2606,3 +2659,22 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: -11
+--- !IFTransform2d &43
+name: ""
+guid: {a: 1245380529822046926, b: 11296961435175029648}
+enabled: true
+localPosition: {x: -7.450581e-09, y: -2.235173e-08, z: 0}
+localScale: {x: 2, y: 2, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -4.768372e-06, y: -1.430511e-05}
+rotation: 0
+scale: {x: 2, y: 2}
+size: {x: 256, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -29
