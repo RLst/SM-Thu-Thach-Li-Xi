@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "f8fc0b68-2bc9-e1ab-1bba-119376a62e4c",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "Beg 2",
+    "objGuid": "Guid(12270405187126871995, 2737064503777584271)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]
