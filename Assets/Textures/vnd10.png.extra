@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "6ba03dcd-005a-1d99-6b70-c512692d843c",
+      "a": "cbbb1496-866e-7614-60fb-7359de72b005",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "vnd100000",
-    "objGuid": "Guid(5495462196441639065, 4017240740405896838)",
+    "name": "vnd10",
+    "objGuid": "Guid(594658396811520605, 3612347220506529165)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

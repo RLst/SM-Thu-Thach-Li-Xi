@@ -105,7 +105,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 12
+        drawCallNum: 19
         maskType:
           __class: IFMaskType
           value: None
@@ -1218,7 +1218,7 @@ entities:
     name: UI Foreground
     guid: {a: 4776206568282203261, b: 3874328185576079259}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 31}
       - __class: IFSprite2d
@@ -1340,6 +1340,7 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1409,6 +1410,7 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1478,6 +1480,7 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1547,6 +1550,7 @@ entities:
           __class: IFBlendMode
           value: Normal
         texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1949,6 +1953,76 @@ entities:
         sizeInited: true
         freeInited: false
     layer: 1
+  - __class: Entity
+    name: Result 4
+    guid: {a: 17745137234988720628, b: 4435514579126242228}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 7007710061492039022, b: 5410075051804115584}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
+        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 2399226965436439948, b: 12748662388680459404}
+        enabled: true
+        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: once
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -2049,7 +2123,7 @@ size: {x: 59.00173, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -15
+depth: -16
 --- !IFTransform2d &7
 name: ""
 guid: {a: 6145092002389795651, b: 16175475397714517409}
@@ -2068,7 +2142,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -16
+depth: -17
 --- !IFTransform2d &8
 name: ""
 guid: {a: 8452071334146214771, b: 6195720741700274869}
@@ -2087,7 +2161,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -17
+depth: -18
 --- !IFTransform2d &9
 name: ""
 guid: {a: 6651039040452589954, b: 11181282363831257534}
@@ -2106,7 +2180,7 @@ size: {x: 36, y: 335.7797}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -21
+depth: -22
 --- !IFTransform2d &10
 name: ""
 guid: {a: 17312720730964070845, b: 15128624138570523044}
@@ -2125,7 +2199,7 @@ size: {x: 203.9791, y: 222.0903}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -22
+depth: -23
 --- !IFTransform2d &11
 name: ""
 guid: {a: 9819277185539623092, b: 467894667099944638}
@@ -2144,7 +2218,7 @@ size: {x: 57, y: 348.0056}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -23
+depth: -24
 --- !IFTransform2d &12
 name: ""
 guid: {a: 8595257631104410458, b: 12965773821956530306}
@@ -2163,7 +2237,7 @@ size: {x: 62, y: 390.4802}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -24
+depth: -25
 --- !IFTransform2d &13
 name: ""
 guid: {a: 8089341361947134823, b: 6589371340884438197}
@@ -2182,7 +2256,7 @@ size: {x: 242.6249, y: 353.1142}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -25
+depth: -26
 --- !IFTransform2d &15
 name: ""
 guid: {a: 7945302530503083998, b: 13377140908602075309}
@@ -2201,7 +2275,7 @@ size: {x: 118.5868, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -26
+depth: -27
 --- !IFTransform2d &16
 name: ""
 guid: {a: 14360875897715769485, b: 3367893894435389883}
@@ -2220,7 +2294,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -18
+depth: -19
 --- !IFTransform2d &17
 name: ""
 guid: {a: 16664025530733010063, b: 12048535400378977706}
@@ -2239,7 +2313,7 @@ size: {x: 88.67153, y: 123.8813}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -28
+depth: -29
 --- !IFTransform2d &18
 name: ""
 guid: {a: 17458127296428067394, b: 12911288139513161121}
@@ -2258,7 +2332,7 @@ size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -20
+depth: -21
 --- !IFTransform2d &19
 name: ""
 guid: {a: 1101519955333113347, b: 6741753024778566838}
@@ -2280,7 +2354,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -29
+depth: -30
 --- !IFTransform2d &20
 name: ""
 guid: {a: 10109201782790428934, b: 13512942760762006685}
@@ -2299,7 +2373,7 @@ size: {x: 256, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -30
+depth: -31
 --- !IFTransform2d &22
 name: ""
 guid: {a: 4849983824052415006, b: 6534725371484680885}
@@ -2341,7 +2415,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -32
+depth: -33
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -2360,7 +2434,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -33
+depth: -34
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -2379,7 +2453,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -34
+depth: -35
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -2398,7 +2472,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -35
+depth: -36
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -2417,7 +2491,7 @@ size: {x: 50, y: 50}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -19
+depth: -20
 --- !IFTransform2d &29
 name: ""
 guid: {a: 14217848644694196196, b: 3197121159146953370}
@@ -2436,7 +2510,7 @@ size: {x: 288, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -31
+depth: -32
 --- !IFTransform2d &30
 name: ""
 guid: {a: 12486907650347986312, b: 17471197362538971788}
@@ -2455,7 +2529,7 @@ size: {x: 130.5007, y: 182.1403}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -27
+depth: -28
 --- !IFTransform2d &31
 name: ""
 guid: {a: 14505246101312104145, b: 17827012429100442013}
@@ -2469,6 +2543,7 @@ children:
   - {localId: 34}
   - {localId: 35}
   - {localId: 36}
+  - {localId: 46}
   - {localId: 38}
   - {localId: 39}
   - {localId: 40}
@@ -2504,7 +2579,7 @@ size: {x: 562.4046, y: 240}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -12
+depth: -13
 --- !IFTransform2d &33
 name: ""
 guid: {a: 1892541490888237268, b: 3408765518183959696}
@@ -2599,7 +2674,7 @@ size: {x: 85, y: 85}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -7
+depth: -8
 --- !IFTransform2d &39
 name: ""
 guid: {a: 5858206209959605921, b: 1022073160043294896}
@@ -2618,7 +2693,7 @@ size: {x: 85, y: 85}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -8
+depth: -9
 --- !IFTransform2d &40
 name: ""
 guid: {a: 741220679365519989, b: 18216381950853235628}
@@ -2637,7 +2712,7 @@ size: {x: 85, y: 85}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -9
+depth: -10
 --- !IFTransform2d &41
 name: ""
 guid: {a: 14575065204962946700, b: 5960794861884822923}
@@ -2656,7 +2731,7 @@ size: {x: 512, y: 81}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -10
+depth: -11
 --- !IFTransform2d &42
 name: ""
 guid: {a: 12991470561044478786, b: 10363488890883344268}
@@ -2675,7 +2750,7 @@ size: {x: 112, y: 150}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -11
+depth: -12
 --- !IFTransform2d &43
 name: ""
 guid: {a: 1245380529822046926, b: 11296961435175029648}
@@ -2714,7 +2789,7 @@ size: {x: 100, y: 100}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -13
+depth: -14
 --- !IFTransform2d &45
 name: ""
 guid: {a: 9171344859624782994, b: 8328488567692843664}
@@ -2733,4 +2808,23 @@ size: {x: 512, y: 231}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -14
+depth: -15
+--- !IFTransform2d &46
+name: ""
+guid: {a: 13853940276515656393, b: 10622892942433611174}
+enabled: true
+localPosition: {x: -0.2984375, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -191, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 85, y: 85}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -7
