@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "e8afef47-173c-dbb5-fa49-f9c8d9d0dad0",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "shake 2",
+    "objGuid": "Guid(16523275123353494527, 6237393698349183107)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]
