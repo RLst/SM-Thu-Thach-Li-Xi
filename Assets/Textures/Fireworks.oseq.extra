@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "d96198a1-60ea-102d-d887-2909ba37aabd",
+      "a": "f92ea225-885f-a7a0-623e-db6382e1122f",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "Fireworks",
-    "objGuid": "Guid(7584760644583809691, 16761256223980158384)",
+    "name": "fireworks",
+    "objGuid": "Guid(1607078469844493227, 17042366658792838577)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

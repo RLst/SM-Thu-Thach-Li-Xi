@@ -6,13 +6,13 @@
     },
     "extraType": "ResItemTextureSequence",
     "name": "number white",
-    "objGuid": "Guid(11190323771623692163, 16891270916557878972)",
+    "objGuid": "Guid(17457357106035755287, 11375907898751757973)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "compressionType": 1,
     "quality": 1,
-    "maxResolution": 512
+    "maxResolution": 128
   }
 ]

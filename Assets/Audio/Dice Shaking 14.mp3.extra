@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "6dc38d6d-d09d-620f-760c-d857e6ac89d4",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "Dice Shaking 14",
+    "objGuid": "Guid(9099887800939698074, 16739840515022062737)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

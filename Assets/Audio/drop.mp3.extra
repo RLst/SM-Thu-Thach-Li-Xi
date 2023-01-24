@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "de3e519c-515c-19a1-87a2-4567e6931c3a",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "drop",
+    "objGuid": "Guid(10757524090296707050, 15575542698939532430)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

@@ -2248,7 +2248,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": true,
+    "expanded": false,
     "type": "none"
   },
   {
@@ -3186,7 +3186,7 @@
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
-    "advanced": false,
+    "advanced": true,
     "texture": "00000000-0000-0000-0000-000000000021"
   },
   {
@@ -3204,7 +3204,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "d96198a1-60ea-102d-d887-2909ba37aabd",
+    "sequence": "f92ea225-885f-a7a0-623e-db6382e1122f",
     "targetProperty": "Albedo",
     "playMode": 1
   }

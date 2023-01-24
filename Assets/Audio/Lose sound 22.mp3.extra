@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Lose sound 22",
-    "objGuid": "Guid(2901759430046876758, 15353697973681250953)",
+    "objGuid": "Guid(6289197502736690357, 4585310970928575885)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8ff638de-bb89-ac3a-ac01-917ed952f0f3",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "Money Win 3 - 01",
+    "objGuid": "Guid(17384117446534068323, 12249679990422312088)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]
