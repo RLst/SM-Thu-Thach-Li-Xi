@@ -2248,7 +2248,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": true,
+    "expanded": false,
     "type": "none"
   },
   {
@@ -2673,7 +2673,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "69844b6d-78b2-2e1b-ed83-3d0c052899f2"
+    "texture": "00000000-0000-0000-0000-00000000001e"
   },
   {
     "guid": {
@@ -2772,7 +2772,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -2824,7 +2824,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "761c10d8-7691-782e-42f0-37c5c408dba3"
+    "texture": "b34b97d1-3e8c-21bb-789a-c9dd3577e237"
   },
   {
     "guid": {

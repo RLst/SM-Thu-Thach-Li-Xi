@@ -1,19 +1,19 @@
 [
   {
     "guid": {
-      "a": "69844b6d-78b2-2e1b-ed83-3d0c052899f2",
+      "a": "56adee03-b097-dbbb-2f39-69adc2d63165",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
     "name": "vnd500",
-    "objGuid": "Guid(9170669277934077671, 17043733697586018739)",
+    "objGuid": "Guid(9674919454458200452, 10181732387175290503)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "compressionType": 1,
     "quality": 1,
-    "maxResolution": 256,
+    "maxResolution": 512,
     "enableMipmap": false,
     "filterMin": 1,
     "filterMag": 1,
