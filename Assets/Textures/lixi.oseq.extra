@@ -1,18 +1,18 @@
 [
   {
     "guid": {
-      "a": "227e593a-e334-7fd8-171a-29813a5ab5af",
+      "a": "ee5edb2c-e3a1-3c5c-7075-d3f5eb7c80f8",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "lixi",
-    "objGuid": "Guid(9533497676529673840, 13925727825150847402)",
+    "objGuid": "Guid(13925285083609678204, 431059865401763764)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 1,
-    "quality": 1,
+    "compressionType": 0,
+    "quality": 0,
     "maxResolution": 512
   }
 ]

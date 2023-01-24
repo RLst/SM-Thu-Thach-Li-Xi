@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Error Sound 1",
-    "objGuid": "Guid(2686155110347779337, 462686864047769276)",
+    "objGuid": "Guid(8882374509758210670, 2083155520493618081)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

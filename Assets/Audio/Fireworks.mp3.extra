@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Fireworks",
-    "objGuid": "Guid(14141534684322864048, 2840337746748948651)",
+    "objGuid": "Guid(6073439791513639645, 14090820661316097464)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Item purchase 5",
-    "objGuid": "Guid(3120738075932471866, 16231499067209304755)",
+    "objGuid": "Guid(14718477964482069081, 15423259915998536837)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
