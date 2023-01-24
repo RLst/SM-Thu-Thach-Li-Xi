@@ -2046,7 +2046,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 3139e830-636f-c782-1415-18a3a338bd52--3139e830-636f-c782-1415-18a3a338bd52.png}
+        texture: {localId: 1, path: 761c10d8-7691-782e-42f0-37c5c408dba3--761c10d8-7691-782e-42f0-37c5c408dba3.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2607,8 +2607,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/d96198a1-60ea-102d-d887-2909ba37aabd/20.png}
-        imageAtlas: {localId: 1, path: d96198a1-60ea-102d-d887-2909ba37aabd--20.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/d96198a1-60ea-102d-d887-2909ba37aabd/6.png}
+        imageAtlas: {localId: 1, path: d96198a1-60ea-102d-d887-2909ba37aabd--6.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3441,7 +3441,7 @@ mobility:
 position: {x: -4.768372e-06, y: 0}
 rotation: 0
 scale: {x: 1.5, y: 1.5}
-size: {x: 512, y: 230}
+size: {x: 512, y: 226}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
