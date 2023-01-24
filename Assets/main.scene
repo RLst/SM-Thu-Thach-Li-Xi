@@ -105,7 +105,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 20
+        drawCallNum: 18
         maskType:
           __class: IFMaskType
           value: None
@@ -753,7 +753,7 @@ entities:
         name: ""
         guid: {a: 5208349207300440771, b: 16015139469238165645}
         enabled: true
-        animSeq: {localId: 9, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+        animSeq: {localId: 10, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -766,7 +766,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          lixi: {localId: 9, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
+          lixi: {localId: 10, path: 227e593a-e334-7fd8-171a-29813a5ab5af--227e593a-e334-7fd8-171a-29813a5ab5af.seq}
     layer: 1
   - __class: Entity
     name: _
@@ -1266,7 +1266,7 @@ entities:
         freeInited: false
     layer: 1
   - __class: Entity
-    name: Gameover Panel
+    name: Results Panel
     guid: {a: 9893305404742192153, b: 15583180517883708803}
     scene: {localId: 1}
     selfvisible: true
@@ -1288,7 +1288,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: e0f5a072-8718-a927-693b-46bbfda7bb4c--e0f5a072-8718-a927-693b-46bbfda7bb4c.png}
+        texture: {localId: 1, path: 00d22f5b-8ee4-941d-16c3-e314d87841d2--00d22f5b-8ee4-941d-16c3-e314d87841d2.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1335,12 +1335,12 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/73094ccf-4b7f-9727-cd19-f02fb208711f/9.png}
+        imageAtlas: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1371,7 +1371,7 @@ entities:
         name: ""
         guid: {a: 15441099595057416513, b: 8008237533480274066}
         enabled: true
-        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        animSeq: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1384,7 +1384,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+          number: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
     layer: 1
   - __class: Entity
     name: Result 2
@@ -1405,12 +1405,12 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/73094ccf-4b7f-9727-cd19-f02fb208711f/9.png}
+        imageAtlas: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1441,7 +1441,7 @@ entities:
         name: ""
         guid: {a: 15010098827212027072, b: 7347337394074099890}
         enabled: true
-        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        animSeq: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1454,7 +1454,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+          number: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
     layer: 1
   - __class: Entity
     name: Result 1
@@ -1475,12 +1475,12 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/73094ccf-4b7f-9727-cd19-f02fb208711f/9.png}
+        imageAtlas: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1511,7 +1511,7 @@ entities:
         name: ""
         guid: {a: 17239815710852429590, b: 8276142724403580559}
         enabled: true
-        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        animSeq: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1524,7 +1524,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+          number: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
     layer: 1
   - __class: Entity
     name: Result 3
@@ -1545,12 +1545,12 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/73094ccf-4b7f-9727-cd19-f02fb208711f/9.png}
+        imageAtlas: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1581,7 +1581,7 @@ entities:
         name: ""
         guid: {a: 1533590335817717789, b: 6503976328543997865}
         enabled: true
-        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        animSeq: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1594,7 +1594,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+          number: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
     layer: 1
   - __class: Entity
     name: Result Zero 0
@@ -1615,11 +1615,11 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        texture: {localId: 1, path: 4649fe43-18b5-2fac-cdfa-1e81876aec7e--4649fe43-18b5-2fac-cdfa-1e81876aec7e.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1666,11 +1666,11 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        texture: {localId: 1, path: 4649fe43-18b5-2fac-cdfa-1e81876aec7e--4649fe43-18b5-2fac-cdfa-1e81876aec7e.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1717,11 +1717,11 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 93053e8a-1ad1-cd9a-6bd2-796abc921bd2--93053e8a-1ad1-cd9a-6bd2-796abc921bd2.png}
+        texture: {localId: 1, path: 4649fe43-18b5-2fac-cdfa-1e81876aec7e--4649fe43-18b5-2fac-cdfa-1e81876aec7e.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1819,11 +1819,11 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7843137, b: 0.06666667, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 1aad7240-3bc9-0d21-d0fe-5969c659e2d7--1aad7240-3bc9-0d21-d0fe-5969c659e2d7.png}
+        texture: {localId: 1, path: 7a3611dc-21bb-60f2-e0e1-201ebde97925--7a3611dc-21bb-60f2-e0e1-201ebde97925.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1972,12 +1972,12 @@ entities:
         sizeMode:
           __class: IFSprite2dSizeMode
           value: Custom
-        colorTint: {r: 1, g: 0.7853432, b: 0.06770522, a: 1}
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/a35b05a4-71d7-570d-02d2-3273c752f222/9.png}
-        imageAtlas: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--9.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/73094ccf-4b7f-9727-cd19-f02fb208711f/9.png}
+        imageAtlas: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--9.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2008,7 +2008,7 @@ entities:
         name: ""
         guid: {a: 2399226965436439948, b: 12748662388680459404}
         enabled: true
-        animSeq: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+        animSeq: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -2021,7 +2021,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          number: {localId: 1, path: a35b05a4-71d7-570d-02d2-3273c752f222--a35b05a4-71d7-570d-02d2-3273c752f222.seq}
+          number: {localId: 3, path: 73094ccf-4b7f-9727-cd19-f02fb208711f--73094ccf-4b7f-9727-cd19-f02fb208711f.seq}
     layer: 1
   - __class: Entity
     name: UI Tutorial
@@ -2097,7 +2097,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: cbbb1496-866e-7614-60fb-7359de72b005--cbbb1496-866e-7614-60fb-7359de72b005.png}
+        texture: {localId: 1, path: 764aeb7b-16a2-01d8-6062-2eda481f8e2d--764aeb7b-16a2-01d8-6062-2eda481f8e2d.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2668,7 +2668,7 @@ mobility:
 position: {x: -4.768372e-06, y: 1.314697}
 rotation: 0
 scale: {x: 1.5, y: 1.5}
-size: {x: 562.4046, y: 240}
+size: {x: 512, y: 304}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
@@ -2839,7 +2839,7 @@ mobility:
 position: {x: 205.6955, y: -15.20125}
 rotation: 0
 scale: {x: 0.7, y: 0.7}
-size: {x: 112, y: 150}
+size: {x: 320, y: 320}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
@@ -2938,7 +2938,7 @@ mobility:
 position: {x: -4.768372e-06, y: 0}
 rotation: 0
 scale: {x: 1.5, y: 1.5}
-size: {x: 480, y: 216.5625}
+size: {x: 512, y: 176}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false

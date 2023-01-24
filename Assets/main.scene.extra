@@ -1978,7 +1978,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -2006,7 +2006,7 @@
     },
     "objGuid": "Guid(9893305404742192153, 15583180517883708803)",
     "extraType": "Entity",
-    "name": "Gameover Panel",
+    "name": "Results Panel",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2030,7 +2030,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "e0f5a072-8718-a927-693b-46bbfda7bb4c"
+    "texture": "00d22f5b-8ee4-941d-16c3-e314d87841d2"
   },
   {
     "guid": {
@@ -2080,7 +2080,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "a35b05a4-71d7-570d-02d2-3273c752f222",
+    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2132,7 +2132,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "a35b05a4-71d7-570d-02d2-3273c752f222",
+    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2184,7 +2184,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "a35b05a4-71d7-570d-02d2-3273c752f222",
+    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2236,7 +2236,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "a35b05a4-71d7-570d-02d2-3273c752f222",
+    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2271,7 +2271,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "93053e8a-1ad1-cd9a-6bd2-796abc921bd2"
+    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
   },
   {
     "guid": {
@@ -2304,7 +2304,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "93053e8a-1ad1-cd9a-6bd2-796abc921bd2"
+    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
   },
   {
     "guid": {
@@ -2337,7 +2337,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "93053e8a-1ad1-cd9a-6bd2-796abc921bd2"
+    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
   },
   {
     "guid": {
@@ -2403,7 +2403,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "1aad7240-3bc9-0d21-d0fe-5969c659e2d7"
+    "texture": "7a3611dc-21bb-60f2-e0e1-201ebde97925"
   },
   {
     "guid": {
@@ -2519,7 +2519,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "a35b05a4-71d7-570d-02d2-3273c752f222",
+    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2587,6 +2587,6 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "cbbb1496-866e-7614-60fb-7359de72b005"
+    "texture": "764aeb7b-16a2-01d8-6062-2eda481f8e2d"
   }
 ]
