@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Beg 2",
-    "objGuid": "Guid(12270405187126871995, 2737064503777584271)",
+    "objGuid": "Guid(18310167448221668, 2651438081705970080)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

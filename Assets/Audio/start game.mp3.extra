@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "start game",
-    "objGuid": "Guid(6507029658847164723, 1081894643977335229)",
+    "objGuid": "Guid(6865478320875148319, 5517885868517768101)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

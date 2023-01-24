@@ -216,6 +216,33 @@
   },
   {
     "guid": {
+      "a": "0f557254-ec81-61e3-d18f-6e7475ccdb2f",
+      "b": ""
+    },
+    "objGuid": "Guid(450984871906892674, 7511186571991984772)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
       "a": "9c99b274-e88e-106a-e903-381183103bd3",
       "b": ""
     },
@@ -274,6 +301,60 @@
       "b": ""
     },
     "objGuid": "Guid(741220679365519989, 18216381950853235628)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "5104d731-be1a-5d95-6348-f72c5c32a38d",
+      "b": ""
+    },
+    "objGuid": "Guid(15799690164136522220, 15877192119950811060)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "6f1380e5-2704-e5e1-b797-bd9d53c7f9d5",
+      "b": ""
+    },
+    "objGuid": "Guid(12415980581994729012, 14507557888588954782)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -378,6 +459,60 @@
   },
   {
     "guid": {
+      "a": "43279b6b-c656-b7cb-f10b-a3e4a9d44a97",
+      "b": ""
+    },
+    "objGuid": "Guid(3840967117298468649, 10490515213940702888)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "08fd5ff5-8e2d-50bc-7e81-6a31f1f48016",
+      "b": ""
+    },
+    "objGuid": "Guid(9461747382350944117, 9273771498001432255)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
       "a": "5de6b8eb-d5b7-1323-08f7-627d0374a01f",
       "b": ""
     },
@@ -409,33 +544,6 @@
       "b": ""
     },
     "objGuid": "Guid(13853940276515656393, 10622892942433611174)",
-    "extraType": "IFTransform2d",
-    "name": "2D Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "IFTransform2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "displayKey": "inspector_add_2dtransform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "716105f0-b0c3-61bf-f81d-2ce8c9ab9059",
-      "b": ""
-    },
-    "objGuid": "Guid(14575065204962946700, 5960794861884822923)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -2039,7 +2147,7 @@
     },
     "objGuid": "Guid(14721305517773120658, 12794303942429627567)",
     "extraType": "Entity",
-    "name": "Result 0",
+    "name": "Result Thousand 0",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2091,7 +2199,7 @@
     },
     "objGuid": "Guid(4126856659344670037, 12475182354111500683)",
     "extraType": "Entity",
-    "name": "Result 2",
+    "name": "Result Thousand 2",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2143,7 +2251,7 @@
     },
     "objGuid": "Guid(12486133923019375853, 9722809595198490789)",
     "extraType": "Entity",
-    "name": "Result 1",
+    "name": "Result Thousand 1",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2195,7 +2303,7 @@
     },
     "objGuid": "Guid(5206301517487431059, 14175227439284198541)",
     "extraType": "Entity",
-    "name": "Result 3",
+    "name": "Result Million 3",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2247,7 +2355,7 @@
     },
     "objGuid": "Guid(4849732042807151061, 13337850213783749045)",
     "extraType": "Entity",
-    "name": "Result Zero 0",
+    "name": "Result Unit 0",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2280,7 +2388,7 @@
     },
     "objGuid": "Guid(11190619451382842620, 3925087973320429698)",
     "extraType": "Entity",
-    "name": "Result Zero 1",
+    "name": "Result Unit 1",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2313,7 +2421,7 @@
     },
     "objGuid": "Guid(2468654487983467360, 753178473528298130)",
     "extraType": "Entity",
-    "name": "Result Zero 2",
+    "name": "Result Unit 2",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2338,39 +2446,6 @@
     "editable": true,
     "advanced": true,
     "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
-  },
-  {
-    "guid": {
-      "a": "39ddd715-6075-6837-694a-e10533f13174",
-      "b": ""
-    },
-    "objGuid": "Guid(5209627113873975838, 3289277654531910841)",
-    "extraType": "Entity",
-    "name": "Title",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none"
-  },
-  {
-    "guid": {
-      "a": "1a0fa680-9087-b916-e63f-68fab06f37b7",
-      "b": ""
-    },
-    "objGuid": "Guid(8739486868614183227, 12096246182876618671)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": true,
-    "texture": "cded1691-2f06-1fb7-4541-c4c5494530a9"
   },
   {
     "guid": {
@@ -2478,7 +2553,7 @@
     },
     "objGuid": "Guid(17745137234988720628, 4435514579126242228)",
     "extraType": "Entity",
-    "name": "Result 4",
+    "name": "Result Million 4",
     "rttiType": "Entity",
     "version": "0.1.0",
     "isVisibleInInspector": true,
@@ -2588,5 +2663,170 @@
     "editable": true,
     "advanced": true,
     "texture": "764aeb7b-16a2-01d8-6062-2eda481f8e2d"
+  },
+  {
+    "guid": {
+      "a": "77e27379-2bd7-81f2-2adc-88fc5b22d676",
+      "b": ""
+    },
+    "objGuid": "Guid(14289137206069545809, 13440907934538845088)",
+    "extraType": "Entity",
+    "name": "Units",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "784337d3-0885-c1d1-df69-a0401de1a636",
+      "b": ""
+    },
+    "objGuid": "Guid(5424165150211002972, 40848446532383666)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "48096c48-81ae-dd17-10c5-a7f121042d9b",
+      "b": ""
+    },
+    "objGuid": "Guid(4054902863807901500, 6014856950257508264)",
+    "extraType": "Entity",
+    "name": "Thousands",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "034c14b4-4913-9de5-0387-00d679ae2f82",
+      "b": ""
+    },
+    "objGuid": "Guid(11835685281735203863, 8708371370445810835)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "bc7548f7-44c3-3798-6ed2-91e077024e92",
+      "b": ""
+    },
+    "objGuid": "Guid(8235853513770018958, 11467705521001570739)",
+    "extraType": "Entity",
+    "name": "Millions",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "e39439e2-e876-a511-d170-9496c44e4b9b",
+      "b": ""
+    },
+    "objGuid": "Guid(1387743948036134743, 2836994314437074849)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "00000000-0000-0000-0000-00000000003e"
+  },
+  {
+    "guid": {
+      "a": "94d2bc4f-9ac5-068d-fa00-01fcc3fff37c",
+      "b": ""
+    },
+    "objGuid": "Guid(15151253286335061447, 11591577008496215973)",
+    "extraType": "Entity",
+    "name": "Result Unit Dot",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "0595ad3c-3a54-5539-b0dd-d730848aa2a4",
+      "b": ""
+    },
+    "objGuid": "Guid(1894575994566509556, 7634819598705470631)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "77fec73c-552e-521b-dc40-329157a7426b"
+  },
+  {
+    "guid": {
+      "a": "75c02f88-f8d3-b4cf-65cb-3184abf73b5f",
+      "b": ""
+    },
+    "objGuid": "Guid(3981443977452561812, 820803014377294227)",
+    "extraType": "Entity",
+    "name": "Result Thousand Dot",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "40a789fe-eb54-004e-918a-17a0e3497845",
+      "b": ""
+    },
+    "objGuid": "Guid(10034794984860760010, 3202480905481799358)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "77fec73c-552e-521b-dc40-329157a7426b"
   }
 ]

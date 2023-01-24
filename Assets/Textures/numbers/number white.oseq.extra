@@ -1,18 +1,18 @@
 [
   {
     "guid": {
-      "a": "227e593a-e334-7fd8-171a-29813a5ab5af",
+      "a": "a35b05a4-71d7-570d-02d2-3273c752f222",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "lixi",
-    "objGuid": "Guid(9533497676529673840, 13925727825150847402)",
+    "name": "number white",
+    "objGuid": "Guid(16594913501510782346, 16463080191930480042)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 1,
-    "quality": 1,
+    "compressionType": 0,
+    "quality": 0,
     "maxResolution": 512
   }
 ]

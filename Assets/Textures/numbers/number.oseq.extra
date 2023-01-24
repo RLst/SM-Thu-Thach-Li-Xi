@@ -1,18 +1,18 @@
 [
   {
     "guid": {
-      "a": "a35b05a4-71d7-570d-02d2-3273c752f222",
+      "a": "73094ccf-4b7f-9727-cd19-f02fb208711f",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "number",
-    "objGuid": "Guid(16594913501510782346, 16463080191930480042)",
+    "objGuid": "Guid(7299289858061297729, 4131582966554314126)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
-    "maxResolution": 512
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 128
   }
 ]

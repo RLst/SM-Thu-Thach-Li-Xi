@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "shake 2",
-    "objGuid": "Guid(16523275123353494527, 6237393698349183107)",
+    "objGuid": "Guid(14360750683650518173, 2674624604062451376)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -1,19 +1,19 @@
 [
   {
     "guid": {
-      "a": "1aad7240-3bc9-0d21-d0fe-5969c659e2d7",
+      "a": "77fec73c-552e-521b-dc40-329157a7426b",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "đ x",
-    "objGuid": "Guid(8233924945695373624, 2720791728790259358)",
+    "name": "dot",
+    "objGuid": "Guid(3693721812114691293, 8126913273244603265)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
-    "maxResolution": 512,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 256,
     "enableMipmap": false,
     "filterMin": 1,
     "filterMag": 1,

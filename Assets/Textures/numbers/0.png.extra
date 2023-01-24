@@ -1,19 +1,19 @@
 [
   {
     "guid": {
-      "a": "e5bfad25-bcc0-1995-35c9-a69c5c598e4d",
+      "a": "4649fe43-18b5-2fac-cdfa-1e81876aec7e",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "vnd100",
-    "objGuid": "Guid(15729227359371785144, 7807038094800153505)",
+    "name": "0",
+    "objGuid": "Guid(9818088674396517738, 203894482222031010)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 0,
-    "quality": 0,
-    "maxResolution": 512,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 256,
     "enableMipmap": false,
     "filterMin": 1,
     "filterMag": 1,
