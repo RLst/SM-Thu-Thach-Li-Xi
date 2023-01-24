@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemMP3",
     "name": "Dice Shaking 14",
-    "objGuid": "Guid(9099887800939698074, 16739840515022062737)",
+    "objGuid": "Guid(10542803508168945004, 12438659739572357537)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

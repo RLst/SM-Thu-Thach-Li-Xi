@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "hand",
-    "objGuid": "Guid(12629571072698013160, 456521493526975917)",
+    "objGuid": "Guid(16952695347098391683, 664657711230477461)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

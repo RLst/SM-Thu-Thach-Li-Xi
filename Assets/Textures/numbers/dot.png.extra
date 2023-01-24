@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "dot",
-    "objGuid": "Guid(5712182598774946027, 994890641901761697)",
+    "objGuid": "Guid(5423957893577087911, 11740684220066688162)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
