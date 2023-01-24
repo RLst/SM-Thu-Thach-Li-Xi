@@ -1801,7 +1801,7 @@ entities:
         freeInited: false
     layer: 1
   - __class: Entity
-    name: Money
+    name: Money Note
     guid: {a: 5712994876266089899, b: 18229598507996668567}
     scene: {localId: 1}
     selfvisible: true
@@ -2330,7 +2330,7 @@ entities:
         freeInited: false
     layer: 1
   - __class: Entity
-    name: Results Counter
+    name: Results Money Earned
     guid: {a: 12630853371458600464, b: 7846328737510016434}
     scene: {localId: 1}
     selfvisible: true
@@ -2607,8 +2607,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/d96198a1-60ea-102d-d887-2909ba37aabd/6.png}
-        imageAtlas: {localId: 1, path: d96198a1-60ea-102d-d887-2909ba37aabd--6.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/d96198a1-60ea-102d-d887-2909ba37aabd/14.png}
+        imageAtlas: {localId: 1, path: d96198a1-60ea-102d-d887-2909ba37aabd--14.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2710,9 +2710,9 @@ children:
   - {localId: 30}
   - {localId: 17}
   - {localId: 19}
+  - {localId: 24}
   - {localId: 64}
   - {localId: 65}
-  - {localId: 24}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -3038,7 +3038,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -43
+depth: -41
 --- !IFTransform2d &25
 name: ""
 guid: {a: 10971341117164769083, b: 14259767739502046349}
@@ -3057,7 +3057,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -45
+depth: -43
 --- !IFTransform2d &26
 name: ""
 guid: {a: 5065278760125666905, b: 6729593868511745198}
@@ -3076,7 +3076,7 @@ size: {x: 65, y: 65}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -46
+depth: -44
 --- !IFTransform2d &27
 name: ""
 guid: {a: 2756303457459590925, b: 3136400637744587670}
@@ -3095,7 +3095,7 @@ size: {x: 320, y: 128}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -47
+depth: -45
 --- !IFTransform2d &28
 name: ""
 guid: {a: 4056267634819243911, b: 5771457254069999266}
@@ -3596,7 +3596,7 @@ size: {x: 330.3627, y: 152.456}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -48
+depth: -46
 --- !IFTransform2d &56
 name: ""
 guid: {a: 17315878890965139499, b: 7696789384109060016}
@@ -3638,7 +3638,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -44
+depth: -42
 --- !Transform &58
 name: ""
 guid: {a: 10898807817850631896, b: 7291685466860904842}
@@ -3667,7 +3667,7 @@ size: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -41
+depth: -47
 --- !IFTransform2d &65
 name: ""
 guid: {a: 9891892376423707197, b: 9002228784241622932}
@@ -3686,4 +3686,4 @@ size: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -42
+depth: -48
