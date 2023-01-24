@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "3139e830-636f-c782-1415-18a3a338bd52",
+      "a": "21772cf9-04c2-d98e-13d0-941e61d05f9b",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "tips",
-    "objGuid": "Guid(17026541310632630583, 1668631715709878971)",
+    "name": "bottom",
+    "objGuid": "Guid(4847210696071471930, 4635518496649149850)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
