@@ -23,15 +23,15 @@
     "extraType": "Transform",
     "name": "Transform",
     "eulerAngle": [
-      0,
-      0,
-      0
+      299.9999694824219,
+      269.99993896484375,
+      0.000020490573660936207
     ],
     "rotation": [
-      0,
-      0,
-      0,
-      1
+      -0.3535534143447876,
+      -0.6123725175857544,
+      -0.3535534143447876,
+      0.6123722791671753
     ],
     "rttiType": "Transform",
     "version": "0.1.0",
@@ -2248,7 +2248,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -2350,7 +2350,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+    "sequence": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2402,7 +2402,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+    "sequence": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2454,7 +2454,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+    "sequence": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2506,7 +2506,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+    "sequence": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2541,7 +2541,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
   },
   {
     "guid": {
@@ -2574,7 +2574,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
   },
   {
     "guid": {
@@ -2607,7 +2607,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "4649fe43-18b5-2fac-cdfa-1e81876aec7e"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
   },
   {
     "guid": {
@@ -2640,7 +2640,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "7a3611dc-21bb-60f2-e0e1-201ebde97925"
+    "texture": "d71c59d2-95e9-5bb2-2e84-3407524011a1"
   },
   {
     "guid": {
@@ -2673,7 +2673,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "c3a2e8ac-5f09-07e0-7631-10c791862189"
+    "texture": "69844b6d-78b2-2e1b-ed83-3d0c052899f2"
   },
   {
     "guid": {
@@ -2687,7 +2687,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -2756,7 +2756,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+    "sequence": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
     "targetProperty": "Albedo",
     "playMode": 0
   },
@@ -2956,7 +2956,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "77fec73c-552e-521b-dc40-329157a7426b"
+    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655"
   },
   {
     "guid": {
@@ -2989,7 +2989,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "77fec73c-552e-521b-dc40-329157a7426b"
+    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655"
   },
   {
     "guid": {
@@ -3003,7 +3003,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": true,
+    "expanded": false,
     "type": "none"
   },
   {

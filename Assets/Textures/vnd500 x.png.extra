@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "6758e428-797f-7f59-f0dc-10b7de37083b",
+      "a": "c3a2e8ac-5f09-07e0-7631-10c791862189",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "countdown",
-    "objGuid": "Guid(16811824817011677334, 5029969189166232490)",
+    "name": "vnd500 x",
+    "objGuid": "Guid(18249833418697092627, 4434932260314357687)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

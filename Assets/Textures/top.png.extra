@@ -13,7 +13,7 @@
     "hideInPanel": false,
     "compressionType": 1,
     "quality": 1,
-    "maxResolution": 256,
+    "maxResolution": 512,
     "enableMipmap": false,
     "filterMin": 1,
     "filterMag": 1,

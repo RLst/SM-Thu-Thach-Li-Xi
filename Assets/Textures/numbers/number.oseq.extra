@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "73094ccf-4b7f-9727-cd19-f02fb208711f",
+      "a": "f3b9fa6b-26f7-0aea-5ed7-b4fbdc82ab0a",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "number",
-    "objGuid": "Guid(6143162596858667550, 5508210136810643383)",
+    "objGuid": "Guid(13277261191169546534, 11760889780388506247)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
