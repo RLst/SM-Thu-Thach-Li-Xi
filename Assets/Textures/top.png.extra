@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "top",
-    "objGuid": "Guid(13566246632164691950, 18228439590366556345)",
+    "objGuid": "Guid(7224361480166152442, 2886438156079653248)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

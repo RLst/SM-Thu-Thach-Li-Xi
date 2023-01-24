@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "d96198a1-60ea-102d-d887-2909ba37aabd",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "Fireworks",
+    "objGuid": "Guid(7584760644583809691, 16761256223980158384)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 512
+  }
+]
