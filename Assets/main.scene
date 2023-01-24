@@ -1823,7 +1823,7 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000001e--00000000-0000-0000-0000-00000000001e.png}
+        texture: {localId: 1, path: 56adee03-b097-dbbb-2f39-69adc2d63165--56adee03-b097-dbbb-2f39-69adc2d63165.png}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2607,8 +2607,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Add
-        texture: {localId: 1, path: Library/Artifact/f92ea225-885f-a7a0-623e-db6382e1122f/31.png}
-        imageAtlas: {localId: 5, path: f92ea225-885f-a7a0-623e-db6382e1122f--31.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/f92ea225-885f-a7a0-623e-db6382e1122f/23.png}
+        imageAtlas: {localId: 5, path: f92ea225-885f-a7a0-623e-db6382e1122f--23.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2659,7 +2659,7 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: _4X
+  value: NONE
 jsScriptSystems:
   - js/GraphSystem.js
   - js/EditorInjectSystem.js
@@ -3432,7 +3432,7 @@ name: ""
 guid: {a: 886114926765811115, b: 13100701857047268792}
 enabled: true
 localPosition: {x: -7.450581e-09, y: 0, z: 0}
-localScale: {x: 1.55, y: 1.55, z: 1}
+localScale: {x: 1.7, y: 1.7, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 47}
 mobility:
@@ -3440,7 +3440,7 @@ mobility:
   value: Dynamic
 position: {x: -4.768372e-06, y: 0}
 rotation: 0
-scale: {x: 1.55, y: 1.55}
+scale: {x: 1.7, y: 1.7}
 size: {x: 512, y: 226}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
