@@ -11,8 +11,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -37,42 +39,38 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_transform",
     "expanded": true,
     "editable": true
   },
   {
     "guid": {
-      "a": "e018bf06-819b-4661-b6d4-baa0335f107b",
+      "a": "38c51f6f-b619-7aae-3550-149dd7ccee7b",
       "b": ""
     },
-    "objGuid": "Guid(13350271480239526722, 3096813384112271290)",
-    "extraType": "DirectionalLight",
-    "name": "Directional Light",
-    "rttiType": "DirectionalLight",
+    "objGuid": "Guid(7660053526472318778, 4583544563066383754)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
     "version": "0.1.0",
-    "isVisibleInInspector": true,
+    "isVisibleInInspector": false,
     "hideInPanel": false,
-    "displayKey": "inspector_add_directional",
+    "createdBy": "LegacyProject",
+    "displayKey": "component_transform",
     "expanded": true,
-    "editable": true,
-    "shadowAdvanceExpanded": false
-  },
-  {
-    "guid": {
-      "a": "b222c869-67be-d949-a81f-f7e6d993a9f1",
-      "b": ""
-    },
-    "objGuid": "Guid(10396795113111327396, 11034785487043013801)",
-    "extraType": "Entity",
-    "name": "2D Camera",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none",
-    "uniqueSign": "Camera2D"
+    "editable": true
   },
   {
     "guid": {
@@ -97,41 +95,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_transform",
     "expanded": true,
     "editable": true
-  },
-  {
-    "guid": {
-      "a": "28c7a538-12e9-31c7-187d-466107e776f6",
-      "b": ""
-    },
-    "objGuid": "Guid(15946400229951115961, 6692344465664348822)",
-    "extraType": "Camera",
-    "name": "Camera",
-    "rttiType": "Camera",
-    "version": "0.2.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "displayKey": "inspector_add_camera",
-    "expanded": true,
-    "editable": true,
-    "usage": "2D"
-  },
-  {
-    "guid": {
-      "a": "5be201c4-e896-3306-1a49-9d6f9694c320",
-      "b": ""
-    },
-    "objGuid": "Guid(11835562685134532671, 6982125772941393047)",
-    "extraType": "Entity",
-    "name": "Canvas",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "expanded": true,
-    "type": "none"
   },
   {
     "guid": {
@@ -156,6 +123,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -183,6 +151,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -210,6 +179,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -237,6 +207,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -264,6 +235,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -291,6 +263,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -318,6 +291,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -345,6 +319,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -372,6 +347,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -399,6 +375,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -426,6 +403,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -453,6 +431,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -480,6 +459,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -507,6 +487,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -534,6 +515,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -561,6 +543,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -588,6 +571,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -615,6 +599,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -642,6 +627,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -669,6 +655,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -696,6 +683,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -723,6 +711,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -750,6 +739,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -777,6 +767,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -804,6 +795,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -831,6 +823,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -858,6 +851,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -885,6 +879,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -912,6 +907,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -939,6 +935,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -966,6 +963,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -993,6 +991,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1020,6 +1019,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1047,6 +1047,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1074,6 +1075,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1101,6 +1103,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1128,6 +1131,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1155,6 +1159,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1182,6 +1187,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1209,6 +1215,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1236,6 +1243,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1263,6 +1271,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1290,6 +1299,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1317,6 +1327,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1344,6 +1355,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1371,6 +1383,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1398,6 +1411,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1425,6 +1439,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -1452,9 +1467,81 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
+  },
+  {
+    "guid": {
+      "a": "e018bf06-819b-4661-b6d4-baa0335f107b",
+      "b": ""
+    },
+    "objGuid": "Guid(13350271480239526722, 3096813384112271290)",
+    "extraType": "DirectionalLight",
+    "name": "Directional Light",
+    "rttiType": "DirectionalLight",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "displayKey": "inspector_add_directional",
+    "expanded": true,
+    "editable": true,
+    "shadowAdvanceExpanded": false
+  },
+  {
+    "guid": {
+      "a": "b222c869-67be-d949-a81f-f7e6d993a9f1",
+      "b": ""
+    },
+    "objGuid": "Guid(10396795113111327396, 11034785487043013801)",
+    "extraType": "Entity",
+    "name": "2D Camera",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "",
+    "uniqueSign": "Camera2D"
+  },
+  {
+    "guid": {
+      "a": "28c7a538-12e9-31c7-187d-466107e776f6",
+      "b": ""
+    },
+    "objGuid": "Guid(15946400229951115961, 6692344465664348822)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "displayKey": "inspector_add_camera",
+    "expanded": true,
+    "editable": true,
+    "usage": "2D"
+  },
+  {
+    "guid": {
+      "a": "5be201c4-e896-3306-1a49-9d6f9694c320",
+      "b": ""
+    },
+    "objGuid": "Guid(11835562685134532671, 6982125772941393047)",
+    "extraType": "Entity",
+    "name": "Canvas",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1468,6 +1555,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_canvas",
     "expanded": true,
     "editable": true
@@ -1484,6 +1572,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_canvasscaler",
     "expanded": true,
     "editable": true,
@@ -1501,8 +1590,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1516,11 +1607,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1534,8 +1627,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1549,11 +1644,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1567,8 +1664,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1582,11 +1681,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1600,8 +1701,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1615,11 +1718,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1633,8 +1738,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1648,11 +1755,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1666,8 +1775,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1681,11 +1792,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1699,8 +1812,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": false,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1714,8 +1829,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1729,11 +1846,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1747,8 +1866,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1762,11 +1883,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1780,8 +1903,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1795,11 +1920,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1813,8 +1940,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1828,11 +1957,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1846,8 +1977,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": false,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1861,11 +1994,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1879,8 +2014,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1894,8 +2031,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1909,11 +2048,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1927,6 +2068,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -1946,8 +2088,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1961,11 +2105,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -1979,8 +2125,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": false,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -1994,11 +2142,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2012,8 +2162,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2027,11 +2179,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2045,6 +2199,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2064,8 +2219,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2079,11 +2236,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2097,6 +2256,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2116,8 +2276,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2131,11 +2293,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "6758e428-797f-7f59-f0dc-10b7de37083b"
+    "texture": "6758e428-797f-7f59-f0dc-10b7de37083b",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2149,8 +2313,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2164,11 +2330,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2182,8 +2350,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2197,11 +2367,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "0df1bf87-2b22-919f-5332-e15d54473b8c"
+    "texture": "0df1bf87-2b22-919f-5332-e15d54473b8c",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2215,8 +2387,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2230,11 +2404,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2248,8 +2424,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": false,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2263,11 +2441,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2281,8 +2461,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2296,11 +2478,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00d22f5b-8ee4-941d-16c3-e314d87841d2"
+    "texture": "00d22f5b-8ee4-941d-16c3-e314d87841d2",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2314,8 +2498,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2329,11 +2515,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2347,6 +2535,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2366,8 +2555,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2381,11 +2572,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2399,6 +2592,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2418,8 +2612,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2433,11 +2629,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2451,6 +2649,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2470,8 +2669,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2485,11 +2686,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2503,6 +2706,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2522,8 +2726,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2537,11 +2743,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2555,8 +2763,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2570,11 +2780,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2588,8 +2800,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2603,11 +2817,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "05371a04-d524-f82f-6f48-de1f51444d13"
+    "texture": "05371a04-d524-f82f-6f48-de1f51444d13",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2621,8 +2837,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2636,11 +2854,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "d71c59d2-95e9-5bb2-2e84-3407524011a1"
+    "texture": "d71c59d2-95e9-5bb2-2e84-3407524011a1",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2654,8 +2874,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2669,11 +2891,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "56adee03-b097-dbbb-2f39-69adc2d63165"
+    "texture": "56adee03-b097-dbbb-2f39-69adc2d63165",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2687,8 +2911,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2702,11 +2928,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2720,8 +2948,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2735,11 +2965,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2753,6 +2985,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
@@ -2772,8 +3005,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2787,11 +3022,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2805,8 +3042,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2820,11 +3059,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "b34b97d1-3e8c-21bb-789a-c9dd3577e237"
+    "texture": "b34b97d1-3e8c-21bb-789a-c9dd3577e237",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2838,8 +3079,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2853,11 +3096,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2871,8 +3116,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2886,11 +3133,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2904,8 +3153,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2919,11 +3170,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2937,8 +3190,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2952,11 +3207,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655"
+    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -2970,8 +3227,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -2985,11 +3244,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655"
+    "texture": "82b8bdeb-01bd-dbe0-2f03-4f723aef2655",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3003,8 +3264,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": false,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3018,11 +3281,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3036,8 +3301,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3051,11 +3318,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "127965f0-7ef3-3e8b-8489-06b0affd9a91"
+    "texture": "127965f0-7ef3-3e8b-8489-06b0affd9a91",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3069,8 +3338,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3084,11 +3355,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "21772cf9-04c2-d98e-13d0-941e61d05f9b"
+    "texture": "21772cf9-04c2-d98e-13d0-941e61d05f9b",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3102,8 +3375,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3117,11 +3392,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e"
+    "texture": "00000000-0000-0000-0000-00000000003e",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3135,8 +3412,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3150,11 +3429,14 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": false,
-    "texture": "20857559-cca8-c5ee-bc68-b11c42a85a05"
+    "texture": "20857559-cca8-c5ee-bc68-b11c42a85a05",
+    "textureType": "ResItemSegmentationAsset",
+    "jsAssetUuid": "7209c64d-bd19-97d3-027b-f6274d7ccca5"
   },
   {
     "guid": {
@@ -3168,8 +3450,10 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "expanded": true,
-    "type": "none"
+    "type": "none",
+    "createdEffectNodeKey": ""
   },
   {
     "guid": {
@@ -3183,11 +3467,13 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_image",
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-000000000021"
+    "texture": "00000000-0000-0000-0000-000000000021",
+    "textureType": "ResItemPNGImage"
   },
   {
     "guid": {
@@ -3201,11 +3487,47 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
     "sequence": "f92ea225-885f-a7a0-623e-db6382e1122f",
     "targetProperty": "Albedo",
     "playMode": 1
+  },
+  {
+    "guid": {
+      "a": "debb79ee-02f0-49d3-79f4-ffe2a16d7f08",
+      "b": ""
+    },
+    "objGuid": "Guid(6216390387869047718, 6681465476715643523)",
+    "extraType": "Entity",
+    "name": "General",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": ""
+  },
+  {
+    "guid": {
+      "a": "5fccc74d-c062-6136-a752-476d7310ab84",
+      "b": ""
+    },
+    "objGuid": "Guid(1387412797452792779, 13962875703765266057)",
+    "extraType": "EffectNode",
+    "name": "Effect Node",
+    "rttiType": "EffectNode",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "createdBy": "LegacyProject",
+    "displayKey": "Effect Node",
+    "expanded": true,
+    "editable": true,
+    "type": 5
   }
 ]

@@ -8,7 +8,10 @@
 			"default_value": "0",
 			"item_type": "",
 			"description": "The minimum value (included) of the generated random number; if the minimum value is larger than maximum value, the minimum value becomes the maximum value",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_random_input_min",
+			"descriptionKey": "graph_random_input_min_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Max",
@@ -16,7 +19,10 @@
 			"default_value": "1",
 			"item_type": "",
 			"description": "The maximum value (not included) of the generated random number; if the maximum value is smaller than minimum value, the maximum value becomes the minimum value",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_random_input_max",
+			"descriptionKey": "graph_random_input_max_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -25,7 +31,10 @@
 			"type": "Double",
 			"item_type": "",
 			"description": "The random number generated between Min and Max",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_random_output_result",
+			"descriptionKey": "graph_random_output_result_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"lua": "CGRandom.lua",
@@ -36,8 +45,11 @@
 	"category": "Math",
 	"description": "Generate a random number within a certain range.",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
-	]
+		"TTEH",
+		"DYEH",
+		"EHI"
+	],
+	"nameKey": "graph_random_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_random_description"
 }

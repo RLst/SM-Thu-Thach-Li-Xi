@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Lose sound 22",
-    "objGuid": "Guid(16663411702099504919, 12201575236518143387)",
+    "expandInPanel": true,
+    "objGuid": "Guid(13207282312509785024, 13116922657915972244)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

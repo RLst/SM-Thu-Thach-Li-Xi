@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "gameover",
-    "objGuid": "Guid(14504283119554389236, 838274560216140417)",
+    "expandInPanel": true,
+    "objGuid": "Guid(15224870160127620179, 5860064738660331146)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

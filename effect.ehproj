@@ -1,10 +1,12 @@
 {
   "name": "Thử Thách Lì Xì",
-  "lastModified": "Tue, 24 Jan 2023 10:56:30 GMT",
-  "version": "1.9.1",
+  "lastModified": "Tue, 21 Feb 2023 04:12:32 GMT",
+  "version": "2.0.0",
+  "internalVersion": "0.15.0",
   "toolName": "Effect House",
   "projectID": "876242e1-dd9e-f6eb-3bcc-d550a1b64c12",
   "created": {
+    "toolName": "Effect House",
     "version": "1.9.1",
     "osName": "macos",
     "timeStamp": "Sun, 22 Jan 2023 05:55:09 GMT"
@@ -75,11 +77,13 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 190799508,
-  "durationCreation": 130620923,
-  "durationBackground": 65714031,
+  "durationToCreate": 2585843261,
+  "durationCreation": 130718184,
+  "durationBackground": 65735301,
   "effectHint": "",
   "templateID": "templateID_none",
+  "overwriteBuiltinGAN": true,
+  "overwriteBuiltinFilter": true,
   "overwriteBuiltinMakeup": false,
-  "overwriteBuiltinFilter": true
+  "overwriteBuiltinFaceShape": false
 }

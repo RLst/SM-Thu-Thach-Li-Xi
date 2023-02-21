@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "shake 2",
-    "objGuid": "Guid(4270115367949679851, 3222817361478676915)",
+    "expandInPanel": true,
+    "objGuid": "Guid(16162675823470064700, 14651125907992509572)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

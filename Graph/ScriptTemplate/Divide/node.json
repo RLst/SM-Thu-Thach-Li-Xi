@@ -9,7 +9,10 @@
 			"dynamic": true,
 			"default_value": "0",
 			"description": "The dividend",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_divide_input_a",
+			"descriptionKey": "graph_divide_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "B",
@@ -18,7 +21,10 @@
 			"dynamic": true,
 			"default_value": "1",
 			"description": "The divisor",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_divide_input_b",
+			"descriptionKey": "graph_divide_input_b_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -28,7 +34,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The quotient of A divided by B",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_divide_output_ab",
+			"descriptionKey": "graph_divide_output_ab_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"lua": "CGDivide.lua",
@@ -46,8 +55,11 @@
 		"Vector4f"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
-	]
+		"TTEH",
+		"DYEH",
+		"EHI"
+	],
+	"nameKey": "graph_divide_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_divide_description"
 }

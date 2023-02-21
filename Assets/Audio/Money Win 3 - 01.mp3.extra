@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Money Win 3 - 01",
-    "objGuid": "Guid(12412536249661605454, 9642060956274683529)",
+    "expandInPanel": true,
+    "objGuid": "Guid(15441929529247701417, 9762002904028458938)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

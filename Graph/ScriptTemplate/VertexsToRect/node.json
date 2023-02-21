@@ -7,14 +7,20 @@
 			"type": "Vector2f",
 			"item_type": "",
 			"description": "The vertex pixel position of the rectangle's bottom left corner",
-			"displayType": "Vec2"
+			"displayType": "Vec2",
+			"nameKey": "graph_vertex_to_rect_input_bottomleft",
+			"descriptionKey": "graph_vertex_to_rect_input_bottomleft_description",
+			"displayTypeKey": "graph_type_vec2"
 		},
 		{
 			"name": "Top Right",
 			"type": "Vector2f",
 			"item_type": "",
 			"description": "The vertex pixel position of the rectangle's top right corner",
-			"displayType": "Vec2"
+			"displayType": "Vec2",
+			"nameKey": "graph_vertex_to_rect_input_topright",
+			"descriptionKey": "graph_vertex_to_rect_input_topright_description",
+			"displayTypeKey": "graph_type_vec2"
 		}
 	],
 	"outputs": [
@@ -23,7 +29,10 @@
 			"type": "Rect",
 			"item_type": "",
 			"description": "The generated rectangle",
-			"displayType": "Rect"
+			"displayType": "Rect",
+			"nameKey": "graph_vertex_to_rect_output_newrect",
+			"descriptionKey": "graph_vertex_to_rect_output_newrect_description",
+			"displayTypeKey": "graph_type_rect"
 		}
 	],
 	"js": "CGVertexToRect.js",
@@ -31,9 +40,12 @@
 	"category": "Utility",
 	"description": "Create a rectangle by specifying its 4 corners positions.",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Vertex-to-Rect"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Vertex-to-Rect",
+	"nameKey": "graph_vertex_to_rect_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_vertex_to_rect_description"
 }

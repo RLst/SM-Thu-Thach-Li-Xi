@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Error Sound 1",
-    "objGuid": "Guid(13568331426218649999, 15931589366612326282)",
+    "expandInPanel": true,
+    "objGuid": "Guid(15439679023028759974, 2773697556688651965)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

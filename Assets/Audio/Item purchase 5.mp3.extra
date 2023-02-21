@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Item purchase 5",
-    "objGuid": "Guid(13637930248292389528, 5739390839507083421)",
+    "expandInPanel": true,
+    "objGuid": "Guid(235235888617497380, 427010711200288395)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

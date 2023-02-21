@@ -9,7 +9,10 @@
 			"default_value": "1",
 			"dynamic": true,
 			"description": "The first value to multiply",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_multiply_input_a",
+			"descriptionKey": "graph_multiply_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "B",
@@ -18,7 +21,10 @@
 			"default_value": "1",
 			"dynamic": true,
 			"description": "The second value to multiply",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_multiply_input_b",
+			"descriptionKey": "graph_multiply_input_b_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -28,7 +34,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The result of  multiplying",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_multiply_output_ab",
+			"descriptionKey": "graph_multiply_output_ab_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"js": "CGMultiply.js",
@@ -49,8 +58,11 @@
 		"increaseStartIndex": "C"
 	},
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
-	]
+		"TTEH",
+		"DYEH",
+		"EHI"
+	],
+	"nameKey": "graph_multiply_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_multiply_description"
 }

@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "drop",
-    "objGuid": "Guid(1245223448114139877, 182230351066073006)",
+    "expandInPanel": true,
+    "objGuid": "Guid(17528199884759300635, 4088078069745459858)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

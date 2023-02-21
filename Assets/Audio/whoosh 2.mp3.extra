@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "whoosh 2",
-    "objGuid": "Guid(9243360612487510034, 11811573768950538903)",
+    "expandInPanel": true,
+    "objGuid": "Guid(9605750675479199141, 6105663871538739853)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

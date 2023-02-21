@@ -8,7 +8,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The lower bound of the range",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_lerp_input_start",
+			"descriptionKey": "graph_lerp_input_start_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Stop",
@@ -16,7 +19,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The upper bound of the range",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_lerp_input_stop",
+			"descriptionKey": "graph_lerp_input_stop_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Step",
@@ -24,7 +30,10 @@
 			"item_type": "",
 			"dynamic": false,
 			"description": "The value used to interpolate between Start and Stop. Value range: 0 to 1.",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_lerp_input_step",
+			"descriptionKey": "graph_lerp_input_step_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -34,7 +43,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The linear interpolation of Step between Start and Stop. When Step = 0, the result is Start, when Step = 1, the result is Stop.",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_lerp_output_result",
+			"descriptionKey": "graph_lerp_output_result_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"js": "CGLerp.js",
@@ -49,9 +61,12 @@
 		"Color"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Math/Lerp"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Math/Lerp",
+	"nameKey": "graph_lerp_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_lerp_description"
 }

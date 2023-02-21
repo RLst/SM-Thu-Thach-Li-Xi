@@ -62,13 +62,12 @@ class CGImageTap extends BaseNode {
       return;
     }
 
-    const layer = canvas.entity.layer;
     const entities = sys.scene.entities;
     for (let i = 0; i < entities.size(); i++) {
       const cams = entities.get(i).getComponents('Camera');
       for (let j = 0; j < cams.size(); ++j) {
         const cam = cams.get(j);
-        if (!cam.isLayerVisible(layer) || !cam.entity.visible) {
+        if (!cam.isEntityVisible(canvas.entity) || !cam.entity.visible) {
           continue;
         }
 

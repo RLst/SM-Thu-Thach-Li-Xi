@@ -8,7 +8,10 @@
 			"item_type": "",
 			"default_value": "0",
 			"description": "The value to round down",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_floor_input_a",
+			"descriptionKey": "graph_floor_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -17,7 +20,10 @@
 			"type": "Int",
 			"item_type": "",
 			"description": "The value rounded down",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_floor_output_result",
+			"descriptionKey": "graph_floor_output_result_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"lua": "CGFloor.lua",
@@ -31,8 +37,11 @@
 		"Double"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
-	]
+		"TTEH",
+		"DYEH",
+		"EHI"
+	],
+	"nameKey": "graph_floor_name",
+	"categoryKey": "graph_category_math",
+	"descriptionKey": "graph_floor_description"
 }

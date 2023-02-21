@@ -9,7 +9,10 @@
 			"dynamic": true,
 			"description": "The first input to compare",
 			"default_value": "0",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_greater_or_equal_input_a",
+			"descriptionKey": "graph_greater_or_equal_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "B",
@@ -18,7 +21,10 @@
 			"dynamic": true,
 			"description": "The second value to compare",
 			"default_value": "0",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_greater_or_equal_input_b",
+			"descriptionKey": "graph_greater_or_equal_input_b_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -27,7 +33,10 @@
 			"type": "Bool",
 			"item_type": "",
 			"description": "If A is greater than or equal to B, this value is true. Otherwise, this value is false.",
-			"displayType": "Boolean"
+			"displayType": "Boolean",
+			"nameKey": "graph_greater_or_equal_output_result",
+			"descriptionKey": "graph_greater_or_equal_output_result_description",
+			"displayTypeKey": "graph_type_boolean"
 		}
 	],
 	"js": "CGGreaterEqual.js",
@@ -42,9 +51,12 @@
 		"Double"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Greater-or-Equal"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Greater-or-Equal",
+	"nameKey": "graph_greater_or_equal_name",
+	"categoryKey": "graph_category_logic",
+	"descriptionKey": "graph_greater_or_equal_description"
 }

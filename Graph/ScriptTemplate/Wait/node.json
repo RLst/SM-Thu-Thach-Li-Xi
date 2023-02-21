@@ -7,7 +7,10 @@
 			"type": "Pulse",
 			"item_type": "",
 			"description": "The input execution that triggers this node",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_wait_for_seconds_input_enter",
+			"descriptionKey": "graph_wait_for_seconds_input_enter_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Start",
@@ -15,7 +18,10 @@
 			"item_type": "",
 			"default_value": "0",
 			"description": "The number of seconds to wait before executing the next node",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_wait_for_seconds_input_start",
+			"descriptionKey": "graph_wait_for_seconds_input_start_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -24,7 +30,10 @@
 			"type": "Pulse",
 			"item_type": "",
 			"description": "Execute the next node when time is up",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_wait_for_seconds_output_next",
+			"descriptionKey": "graph_wait_for_seconds_output_next_description",
+			"displayTypeKey": "graph_type_exec"
 		}
 	],
 	"lua": "CGWait.lua",
@@ -36,9 +45,12 @@
 	"description": "Take an execution after certain seconds.",
 	"nodeEvent": "onUpdate",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Time/Wait-for-Seconds"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Time/Wait-for-Seconds",
+	"nameKey": "graph_wait_for_seconds_name",
+	"categoryKey": "graph_category_time",
+	"descriptionKey": "graph_wait_for_seconds_description"
 }

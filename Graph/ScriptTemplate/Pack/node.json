@@ -87,7 +87,10 @@
 			"item_type": "",
 			"dynamic": true,
 			"description": "The output vector",
-			"displayType": "Vec2"
+			"displayType": "Vec2",
+			"nameKey": "graph_combine_output_output",
+			"descriptionKey": "graph_combine_output_output_description",
+			"displayTypeKey": "graph_type_vec2"
 		}
 	],
 	"lua": "CGPackNode.lua",
@@ -101,10 +104,13 @@
 		"Color"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
 	"version": "1.0.1",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Combine"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Combine",
+	"nameKey": "graph_combine_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_combine_description"
 }

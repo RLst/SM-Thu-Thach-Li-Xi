@@ -6,7 +6,10 @@
 			"name": "Image",
 			"type": "IFSprite2d",
 			"description": "The image people will tap to interact",
-			"displayType": "Image"
+			"displayType": "Image",
+			"nameKey": "graph_image_tap_input_image",
+			"descriptionKey": "graph_image_tap_input_image_description",
+			"displayTypeKey": "graph_type_image"
 		}
 	],
 	"outputs": [
@@ -14,13 +17,19 @@
 			"name": "On Image Tapped",
 			"type": "Pulse",
 			"description": "Execute the next node when people tapped the input image",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_image_tap_output_onimagetapped",
+			"descriptionKey": "graph_image_tap_output_onimagetapped_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Is Tapped",
 			"type": "Bool",
 			"description": "Return true when the image is tapped otherwise return false",
-			"displayType": "Boolean"
+			"displayType": "Boolean",
+			"nameKey": "graph_image_tap_output_istapped",
+			"descriptionKey": "graph_image_tap_output_istapped_description",
+			"displayTypeKey": "graph_type_boolean"
 		}
 	],
 	"js": "CGImageTap.js",
@@ -36,9 +45,12 @@
 		"onUpdate"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Image-Tap"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Image-Tap",
+	"nameKey": "graph_image_tap_name",
+	"categoryKey": "graph_category_utility",
+	"descriptionKey": "graph_image_tap_description"
 }

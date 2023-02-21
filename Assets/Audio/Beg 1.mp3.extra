@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Beg 1",
-    "objGuid": "Guid(9388211225727268969, 11743750727152933807)",
+    "expandInPanel": true,
+    "objGuid": "Guid(9241836440256382932, 11404482278222497210)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

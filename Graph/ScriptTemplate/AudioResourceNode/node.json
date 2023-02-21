@@ -3,11 +3,14 @@
 	"id": "2179790b-1532-13df-1b60-247d68ade260",
 	"inputs": [
 		{
-			"name": "",
+			"name": "Audio Clip",
 			"type": "AudioClip",
 			"description": "The input audio source",
 			"visible": false,
-			"displayType": "Audio Clip"
+			"displayType": "Audio Clip",
+			"nameKey": "graph_audio_resource_input_audioclip",
+			"descriptionKey": "graph_audio_resource_input_audioclip_description",
+			"displayTypeKey": "graph_type_audioclip"
 		}
 	],
 	"outputs": [
@@ -15,7 +18,10 @@
 			"name": "Audio Resource",
 			"type": "Audio Source",
 			"description": "The audio source. Connect it to an Audio Resource Controller to play.",
-			"displayType": "Audio Source"
+			"displayType": "Audio Source",
+			"nameKey": "graph_audio_resource_output_audioresource",
+			"descriptionKey": "graph_audio_resource_output_audioresource_description",
+			"displayTypeKey": "graph_type_audiosource"
 		}
 	],
 	"scriptSupport": "js",
@@ -27,11 +33,15 @@
 	"description": "Select the audio source.",
 	"productTypes": [
 		"TTEH",
-		"InUse"
+		"DYEH",
+		"EHI"
 	],
 	"containResource": true,
 	"builtinClass": "AudioGeneralNode",
 	"audioNodeName": "FileSourceNode",
 	"version": "1.0.0",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Resource"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Resource",
+	"nameKey": "graph_audio_resource_name",
+	"categoryKey": "graph_category_audio",
+	"descriptionKey": "graph_audio_resource_description"
 }

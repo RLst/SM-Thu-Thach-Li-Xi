@@ -9,7 +9,10 @@
 			"dynamic": true,
 			"default_value": "0",
 			"description": "The first input to compare",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_less_than_input_a",
+			"descriptionKey": "graph_less_than_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "B",
@@ -18,7 +21,10 @@
 			"dynamic": true,
 			"default_value": "0",
 			"description": "The second value to compare",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_less_than_input_b",
+			"descriptionKey": "graph_less_than_input_b_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -28,7 +34,10 @@
 			"item_type": "",
 			"dynamic": false,
 			"description": "If A is less than B, this value is true. Otherwise, this value is false.",
-			"displayType": "Boolean"
+			"displayType": "Boolean",
+			"nameKey": "graph_less_than_output_result",
+			"descriptionKey": "graph_less_than_output_result_description",
+			"displayTypeKey": "graph_type_boolean"
 		}
 	],
 	"js": "CGLessThan.js",
@@ -43,9 +52,12 @@
 		"Double"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Less-Than"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Less-Than",
+	"nameKey": "graph_less_than_name",
+	"categoryKey": "graph_category_logic",
+	"descriptionKey": "graph_less_than_description"
 }

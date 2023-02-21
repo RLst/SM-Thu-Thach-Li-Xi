@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Dice Shaking 14",
-    "objGuid": "Guid(10542803508168945004, 12438659739572357537)",
+    "expandInPanel": true,
+    "objGuid": "Guid(17096889061512214893, 17139846499754793351)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]

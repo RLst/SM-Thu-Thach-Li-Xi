@@ -6,25 +6,37 @@
 			"name": "Play",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Play the audio source"
+			"description": "Play the audio source",
+			"nameKey": "graph_audio_resource_controller_input_play",
+			"descriptionKey": "graph_audio_resource_controller_input_play_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Stop",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Stop the audio source"
+			"description": "Stop the audio source",
+			"nameKey": "graph_audio_resource_controller_input_stop",
+			"descriptionKey": "graph_audio_resource_controller_input_stop_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Pause",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Pause the audio source"
+			"description": "Pause the audio source",
+			"nameKey": "graph_audio_resource_controller_input_pause",
+			"descriptionKey": "graph_audio_resource_controller_input_pause_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Resume",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Resume the audio source"
+			"description": "Resume the audio source",
+			"nameKey": "graph_audio_resource_controller_input_resume",
+			"descriptionKey": "graph_audio_resource_controller_input_resume_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Loop Amount",
@@ -38,13 +50,19 @@
 				]
 			],
 			"description": "The number of times of playing the audio source",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_audio_resource_controller_input_loopamount",
+			"descriptionKey": "graph_audio_resource_controller_input_loopamount_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Audio Resource",
 			"description": "The audio source you want to play",
 			"type": "Audio Source",
-			"displayType": "Audio Source"
+			"displayType": "Audio Source",
+			"nameKey": "graph_audio_resource_controller_input_audioresource",
+			"descriptionKey": "graph_audio_resource_controller_input_audioresource_description",
+			"displayTypeKey": "graph_type_audiosource"
 		}
 	],
 	"outputs": [
@@ -52,25 +70,37 @@
 			"name": "Audio",
 			"type": "Audio Stream",
 			"description": "The audio source. Connect it to a speaker to play.",
-			"displayType": "Audio Stream"
+			"displayType": "Audio Stream",
+			"nameKey": "graph_audio_resource_controller_output_audio",
+			"descriptionKey": "graph_audio_resource_controller_output_audio_description",
+			"displayTypeKey": "graph_type_audiostream"
 		},
 		{
 			"name": "On Play",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Execute the next node when the audio source playback starts"
+			"description": "Execute the next node when the audio source playback starts",
+			"nameKey": "graph_audio_resource_controller_output_onplay",
+			"descriptionKey": "graph_audio_resource_controller_output_onplay_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "On Stop",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Execute the next node when the audio source playback stops"
+			"description": "Execute the next node when the audio source playback stops",
+			"nameKey": "graph_audio_resource_controller_output_onstop",
+			"descriptionKey": "graph_audio_resource_controller_output_onstop_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "On Finish",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Execute the next node when the audio source finishes playing on each loop"
+			"description": "Execute the next node when the audio source finishes playing on each loop",
+			"nameKey": "graph_audio_resource_controller_output_onfinish",
+			"descriptionKey": "graph_audio_resource_controller_output_onfinish_description",
+			"displayTypeKey": "graph_type_exec"
 		}
 	],
 	"scriptSupport": "js",
@@ -83,10 +113,14 @@
 	"description": "Connect to a speaker as an output to play and control the audio resource.",
 	"productTypes": [
 		"TTEH",
-		"InUse"
+		"DYEH",
+		"EHI"
 	],
 	"builtinClass": "AudioGeneralNode",
 	"audioNodeName": "AudioControlNode",
 	"version": "2.0.0",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Resource-Controller"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Resource-Controller",
+	"nameKey": "graph_audio_resource_controller_name",
+	"categoryKey": "graph_category_audio",
+	"descriptionKey": "graph_audio_resource_controller_description"
 }

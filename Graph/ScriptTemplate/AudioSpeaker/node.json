@@ -6,7 +6,10 @@
 			"name": "Audio",
 			"type": "Audio Stream",
 			"description": "The audio source you want to use in the effect",
-			"displayType": "Audio Stream"
+			"displayType": "Audio Stream",
+			"nameKey": "graph_speaker_input_audio",
+			"descriptionKey": "graph_speaker_input_audio_description",
+			"displayTypeKey": "graph_type_audiostream"
 		},
 		{
 			"name": "Volume",
@@ -20,7 +23,10 @@
 					100,
 					1
 				]
-			]
+			],
+			"nameKey": "graph_speaker_input_volume",
+			"descriptionKey": "graph_speaker_input_volume_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [],
@@ -32,7 +38,8 @@
 	"description": "Play the audio stream with volume control.",
 	"productTypes": [
 		"TTEH",
-		"InUse"
+		"DYEH",
+		"EHI"
 	],
 	"nodeEvent": [
 		"onUpdate",
@@ -40,5 +47,8 @@
 	],
 	"builtinClass": "AudioGeneralNode",
 	"version": "2.0.0",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Speaker"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Speaker",
+	"nameKey": "graph_speaker_name",
+	"categoryKey": "graph_category_audio",
+	"descriptionKey": "graph_speaker_description"
 }

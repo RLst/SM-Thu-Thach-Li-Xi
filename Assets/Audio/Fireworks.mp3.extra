@@ -6,11 +6,13 @@
     },
     "extraType": "ResItemMP3",
     "name": "Fireworks",
-    "objGuid": "Guid(12990738317642865552, 11530326083519934614)",
+    "expandInPanel": true,
+    "objGuid": "Guid(5927540111866739600, 14434716196267634111)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
+    "createdBy": "LegacyProject",
     "mccState": "SUCCESS"
   }
 ]
